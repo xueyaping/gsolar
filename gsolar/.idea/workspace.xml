@@ -21,16 +21,61 @@
   <component name="FavoritesManager">
     <favorites_list name="gsolar_english" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="contact.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page_en/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="187" column="42" selection-start="7623" selection-end="7624" vertical-scroll-proportion="0.7372176" vertical-offset="3120" max-vertical-offset="5680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_en/news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="117" column="53" selection-start="5213" selection-end="5213" vertical-scroll-proportion="45.517242" vertical-offset="3660" max-vertical-offset="11860">
+              <folding>
+                <marker date="1414999159229" expanded="false" signature="23557:23583" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/page_en/prouducts_p/p_2A.html" />
+        <option value="$PROJECT_DIR$/page_en/prouducts_p/p_9A.html" />
+        <option value="$PROJECT_DIR$/page_en/index.html" />
+        <option value="$PROJECT_DIR$/page_en/about.html" />
+        <option value="$PROJECT_DIR$/page_en/after-sales.html" />
+        <option value="$PROJECT_DIR$/page_en/career.html" />
+        <option value="$PROJECT_DIR$/page_en/news.html" />
+        <option value="$PROJECT_DIR$/page_en/news-event.html" />
+        <option value="$PROJECT_DIR$/page_en/news-frontier.html" />
+        <option value="$PROJECT_DIR$/page_en/p_2A.html" />
+        <option value="$PROJECT_DIR$/page_en/p_9A.html" />
+        <option value="$PROJECT_DIR$/page_en/products.html" />
+        <option value="$PROJECT_DIR$/page_en/service-t.html" />
+        <option value="$PROJECT_DIR$/page_en/contact.html" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1278" />
-    <option name="height" value="678" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -66,6 +111,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsolar_english" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsolar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsolar_english" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsolar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page_en" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsolar_english" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsolar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsolar_english" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsolar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -74,6 +171,16 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\web design\gsolar\page_en" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\web design\gsolar\page_en" />
+      <recent name="F:\web design\gsolar\page_en\prouducts_p" />
+      <recent name="F:\web design\gsolar\prouducts_p" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -117,14 +224,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1278" height="678" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12025827" sideWeight="0.6716216" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12018977" sideWeight="0.6716216" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837838" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -149,6 +256,112 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/page_en/missing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_en/news-event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="53" selection-start="5213" selection-end="5213" vertical-scroll-proportion="0.5072464" vertical-offset="1920" max-vertical-offset="11860">
+          <folding>
+            <marker date="1414999176351" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_en/news-frontier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="53" selection-start="5213" selection-end="5213" vertical-scroll-proportion="0.5797101" vertical-offset="1860" max-vertical-offset="11880">
+          <folding>
+            <marker date="1414999189978" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_en/p_2A.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="45" selection-start="4458" selection-end="4458" vertical-scroll-proportion="0.8937198" vertical-offset="1200" max-vertical-offset="8080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_en/p_9A.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="45" selection-start="4411" selection-end="4411" vertical-scroll-proportion="0.602657" vertical-offset="1441" max-vertical-offset="7720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_en/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="45" selection-start="3767" selection-end="3767" vertical-scroll-proportion="0.62801933" vertical-offset="1140" max-vertical-offset="9240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_en/sales-service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.7122474" vertical-offset="1440" max-vertical-offset="8960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_en/service-t.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="49" selection-start="6957" selection-end="6957" vertical-scroll-proportion="0.5707491" vertical-offset="2940" max-vertical-offset="10400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_en/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="55" selection-start="4173" selection-end="4173" vertical-scroll-proportion="0.6763285" vertical-offset="1080" max-vertical-offset="6840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_en/after-sales.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="49" selection-start="4423" selection-end="4423" vertical-scroll-proportion="0.99881095" vertical-offset="1080" max-vertical-offset="5880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_en/career.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="45" selection-start="4408" selection-end="4408" vertical-scroll-proportion="1.2560387" vertical-offset="900" max-vertical-offset="8640">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_en/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="17" selection-start="4951" selection-end="4951" vertical-scroll-proportion="0.77294683" vertical-offset="1380" max-vertical-offset="6920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_en/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="53" selection-start="5213" selection-end="5213" vertical-scroll-proportion="45.517242" vertical-offset="3660" max-vertical-offset="11860">
+          <folding>
+            <marker date="1414999159229" expanded="false" signature="23557:23583" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_en/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="42" selection-start="7623" selection-end="7624" vertical-scroll-proportion="0.7372176" vertical-offset="3120" max-vertical-offset="5680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
 
