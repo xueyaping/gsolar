@@ -296,14 +296,20 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
   font-size:50px;
   color: #5a5a5a;
 }
-
+.featurette-title-ch {
+    font-size:43px;
+    /*中文字体*/
+}
+.featurette-heading-ch {
+    font-size:40px;
+    /*中文字体*/
+}
 .marketing h2 {
   font-weight: normal;
 }
 
 .featurette-heading {
   margin-top:120px;
-  font-size:50px;
   letter-spacing: -1px;
   line-height: 1;
   text-align: left;
