@@ -32,6 +32,16 @@
 
     <style type="text/css">
         {display:none}
+        .t-indent {text-indent:2em; line-height:1.42857;}
+       .title-overflow {
+
+           width:230px;
+           white-space:nowrap;
+           word-break: break-all;
+           overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+           text-overflow:ellipsis;
+       }
+
     </style>
 
     <script>
@@ -46,22 +56,6 @@
          })();
          */
     </script>
-    <!-- <script>
-         function showdiv() {
-             document.getElementById("hpn").style.display="block";
-             document.getElementById("strHref").href="javascript:hidediv();";
-             document.getElementById("strHref").innerHTML="close";
-
-
-         }
-
-         function hidediv() {
-             document.getElementById("hpn").style.display="none";
-             document.getElementById("strHref").href="javascript:showdiv();";
-             document.getElementById("strHref").innerHTML="detailes";
-
-         }
-     </script>-->
 
 
 </head>
@@ -86,44 +80,53 @@
             <div class="navbar-collapse collapse pull-right" role="navigation"style="height:1px;"><!--栏目列表-->
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html"><i class="icon-home"></i>  Home</a>
+                        <a href="../index.html"><i class="icon-home"></i>首页</a>
                     </li>
 
                     <li class="dropdown">
-                        <a href="products.html" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
+                        <a href="products.html" class="dropdown-toggle" data-toggle="dropdown">产品中心<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="products.html#p0">New Products</a></li>
+                            <li><a href="products.html#p0">最新产品</a></li>
                             <li class="divider"></li>
-                            <li><a href="products.html#p1">Solar Simulator</a></li>
-                            <li><a href="products.html#p2">EL Detector</a></li>
-                            <li><a href="products.html#p3">Production Line</a></li>
+                            <li><a href="products.html#p1">太阳能模拟器</a></li>
+                            <li><a href="products.html#p2">太阳能组件缺陷检测仪</a></li>
+                            <li><a href="products.html#p3">太阳能组件流水线</a></li>
                         </ul>
                     </li>
 
                     <li class="dropdown">
-                        <a href="./about.html" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
+                        <a href="./about.html" class="dropdown-toggle" data-toggle="dropdown">关于我们<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="./about.html#p0">Company profile</a></li>
+                            <li><a href="./about.html#p0">公司概况</a></li>
                             <li class="divider"></li>
-                            <li><a href="./about.html#p1">Core Culture</a></li>
-                            <li><a href="./about.html#p2">Our History</a></li>
-                            <li><a href="./about.html#p3">Technical Achievement</a></li>
+                            <li><a href="./about.html#p1">核心文化</a></li>
+                            <li><a href="./about.html#p2">企业历程</a></li>
+                            <li><a href="./about.html#p3">技术认证</a></li>
                         </ul>
                     </li>
 
                     <li class="dropdown">
-                        <a href="sales-service.html"  class="dropdown-toggle" data-toggle="dropdown">Service<b class="caret"></b></a>
+                        <a href="sales-service.html"  class="dropdown-toggle" data-toggle="dropdown">技术服务<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="sales-service.html">sales Service</a></li>
+                            <li><a href="sales-service.html">销售服务</a></li>
                             <li class="divider"></li>
-                            <li><a href="after-sales.html">After-sales Service</a></li>
-                            <li><a href="service-t.html"> Technical Support</a></li>
+                            <li><a href="after-sales.html">售后服务</a></li>
+                            <li><a href="service-t.html">技术支持</a></li>
                         </ul>
                     </li>
 
-                    <li class="active"><a href="news.html">News</a></li>
-                    <li><a href="./career.html">Career</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="news.html"  class="dropdown-toggle" data-toggle="dropdown">企业动态<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./news.html">企业动态</a></li>
+                            <li class="divider"></li>
+                            <li><a href="./news-frontier.html">技术前沿</a></li>
+                            <li><a href="./news-event.html">展会活动</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="./career.html">加入我们</a></li>
+                    <li><a href="./contact.html">联系我们</a></li>
                 </ul>
             </div>
 
@@ -149,27 +152,27 @@
 <div class="col-md-3">
     <div class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" >
         <ul class="nav bs-docs-sidenav">
-            <li class="li-header1"> News
+            <li class="li-header1">企业动态
                 <img src="../img/li-header-img1.png" class="li-header-img">
             </li>
-            <li class="active"> <a href="news.html">Industy News</a></li>
-            <li><a href="news-frontier.html"> Frontier Technology</a></li>
-            <li><a href="news-event.html"> Exhibitions&Event</a></li>
+            <li class="active"> <a href="news.html">企业动态</a></li>
+            <li><a href="news-frontier.html">技术前沿</a></li>
+            <li><a href="news-event.html">展会&活动</a></li>
 
 
 
         </ul>
         <ul class="nav bs-docs-sidenav">
-            <li class="li-header2">Contacts
+            <li class="li-header2">联系我们
                 <img src="../img/li-header-img2.png" class="li-header-img"/>
             </li>
             <li class="address-bg">
 
                 <address>
-                    <strong>  Gsolar Power Co.,Ltd.</strong><br>
-                    Tel: 86-029-89150750/51/52<br>
-                    Fax: 86-029-89150753-604<br>
-                    E-mail: sales@gsola.cn
+                    <span>陕西众森电能科技有限公司</span><br>
+                    电话: 029-89150750/51/52<br>
+                    传真: 029-89150753-604<br>
+                    邮箱: sales@gsola.cn
                 </address>
             </li>
         </ul>
@@ -181,14 +184,15 @@
 
 <div class="bs-docs-section">
     <h1 class="page-header">
-        <span class="text-muted"> Industry News</span>  </h1>
-    <p>  Gsolar Power Co., LTD is commitment to developing and promoting technology of new energy industries.
-        It is the only PV equipment producer that has TUV/CE certification in China. We have hundreds of clients,
-        own top one market share and export machines to Europe, USA, Asia etc. We are mainly developing solar cell
-        testing technology and related testing equipment, serving for photovoltaic industry. The main products are
-        IEC AAA class sun simulator, solar cell tester, auto cell sorter, outdoor module/array tester and solar
-        cell/module EL/PL defect detector, turnkey solar module production line.
-    </p>
+        <span class="text-muted">企业动态</span>  </h1>
+    <p class="t-indent"> 陕西众森电能科技有限公司多年来专注于太阳能光伏领域检测及生产设备，是一家集研发、设计、生产、销售、服务为一体的高新技术企业，拥有一个研发中心和两大生产基地。
+        目前已形成太阳能模拟器、太阳能电池缺陷检测仪、太阳能电池组件生产线三大系列二十余种产品。
+        公司正在为全球超过500家光伏企业提供优质的产品和服务，产品远销德国、意大利、西班牙、美国、日本、印度等国家和地区。</p>
+
+    <p class="t-indent"> 公司汇聚了中国可再生能源学会理事，“新世纪百千万人才工程” 国家级人选、国务院特殊津贴专家、研究员、大学教授、高级工程师等资深行业专家。建立了一支强大的专业研发团队，
+        研发人员占据员工数量的三分之一以上，核心研发人员拥有二十年光伏研发经验，完成了多项国家级重点项目。 公司通过了ISO9001质量体系认证，ＩＶ系列产品通过中国计量科学院
+        的认证，并在国内光伏测试设备企业中率先通过ＴＵＶ／ＣＥ认证。
+
 </div><!--bs-docs-section-->
 
 
@@ -197,264 +201,270 @@
 
 <div class="row">
 <div class="show-grid">
-    <div class="col-xs-pull-12">Last News</div>
+    <div class="col-xs-pull-12">企业新闻</div>
 </div>
 
 
 <table id="pager">
 <!--Collapsible Group Item =============-->
-<tr><td>
-    <div class="col-sm-6 col-md-12">
-        <div class="col-sm-6 col-md-3 thumbnail">
-            <img src="../img/mo-img-1.jpg"  widdh="172" height="120" alt=""/>
-        </div>
-        <div class="col-sm-6 col-md-9">
-            <h4>InterSolar 2014</h4>
-            <p>We inivite you to Intersolar 2014, Munich, Germany, June 4 – 6...</p>
-            <p><small class="text-muted">2014-05-21</small></p>
-        </div>
-    </div>
-    <!--collapsible 2-->
-    <div class="col-sm-6 col-md-12">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <p class="panel-title text-right">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                        <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
-                    </a>
-                </p>
+
+
+    <tr><td>
+        <div class="col-sm-6 col-md-12">
+            <div class="col-sm-6 col-md-3 thumbnail">
+                <img src="../img/mo-img-2.jpg" alt=""/>
             </div>
-            <div id="collapseOne" class="panel-collapse collapse">
-                <div class="panel-body">
+            <div class="col-sm-6 col-md-9 ">
+                <h4>陕西众森“2014年第一期内部客户服务之星”</h4>
+                <p >为全面完成公司战略目标，加强内部客户服务意识，激发员工积极性、主动性...</p>
+                <p><small class="text-muted">2014-10-31</small></p>
+            </div>
+        </div>
+        <!--collapsible 1-->
+        <div class="col-sm-6 col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p class="panel-title text-right">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                            <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
+                        </a>
+                    </p>
+                </div>
+                <div id="collapseSix" class="panel-collapse collapse">
+                    <div class="panel-body">
 
-                    <div class="col-sm-6 col-md-8">
-                        <h4 class="text-center">InterSolar 2014</h4>
-                        <p>We inivite you to Intersolar 2014, Munich, Germany, June 4 – 6.
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
-                    </div>
-                    <div class="col-sm-6 col-md-4 thumbnail">
-                        <img src="../img/mo-img-2.jpg" widdh="240"height="140"  alt=""/>
-                    </div>
+                        <div class="col-sm-6 col-md-8">
 
+                            <p class="t-indent">为全面完成公司战略目标，加强内部客户服务意识，激发员工积极性、主动性、创造性，不断增强企业向心力和凝聚力，提高工作效率，有效激励表现优秀的部门及员工，在总经办的组织下，
+                            <p class="t-indent">陕西众森电能科技有限公司（以下简称众森）2014年第一季度中各岗位上的员工及团队通过层层考核、评比、投票选举出业绩突出、表现优异的季度最佳服务部门、季度最佳进步部门、季度个人服务之星给予的表彰。</p>
+                            <p class="t-indent">10月28日，陕西众森在工厂内，隆重举行了“2014年第一期内部客户服务之星”颁奖典礼仪式，陕西众森对此非常重视，董事长黄国保和副总经理冉旭亲自为获奖个人和部门颁发荣誉证书、奖杯及奖金。并做了重要讲话。
+                                冉总提出，通过此事件，所有员工应该以获奖的人员为榜样，希望员工们可以通过这样的评比提高自己的工作效率，给大家发放奖励也是为了激励大家更好的工作。
+                                现场掌声阵阵，一派欢乐祥和，幸福洋溢在每一个众森人的笑脸上！</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 thumbnail">
+                            <img src="../img/news/20141031.jpg"  alt=""/>
+                        </div>
+
+
+                    </div>
                 </div>
             </div>
+            <!--collapsible 2-->
         </div>
-        <!--collapsible 2-->
-    </div>
-</td></tr>
+    </td></tr>
 
-<tr><td>
-    <div class="col-sm-6 col-md-12">
-        <div class="col-sm-6 col-md-3 thumbnail">
-            <img src="../img/mo-img-2.jpg"  widdh="172" height="120" alt=""/>
-        </div>
-        <div class="col-sm-6 col-md-9">
-            <h4>InterSolar 2014</h4>
-            <p>We inivite you to Intersolar 2014, Munich, Germany, June 4 – 6...</p>
-            <p><small class="text-muted">2014-05-21</small></p>
-        </div>
-    </div>
-    <!--collapsible 2-->
-    <div class="col-sm-6 col-md-12">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <p class="panel-title text-right">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                        <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
-                    </a>
-                </p>
+    <tr><td>
+        <div class="col-sm-6 col-md-12">
+            <div class="col-sm-6 col-md-3 thumbnail">
+                <img src="../img/news/2014-10-21.jpg" alt=""/>
             </div>
-            <div id="collapseTwo" class="panel-collapse collapse">
-                <div class="panel-body">
+            <div class="col-sm-6 col-md-9">
+                <h4>2014年陕西众森第一期客户培训班</h4>
+                <p>客户培训是众森培训体系的重要内容，为了加深客户对产品的了解，熟悉产品...</p>
+                <p><small class="text-muted">2014-10-21</small></p>
+            </div>
+        </div>
+        <!--collapsible 1-->
+        <div class="col-sm-6 col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p class="panel-title text-right">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                            <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
+                        </a>
+                    </p>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse">
+                    <div class="panel-body">
 
-                    <div class="col-sm-6 col-md-8">
-                        <h4 class="text-center">InterSolar 2014</h4>
-                        <p>We inivite you to Intersolar 2014, Munich, Germany, June 4 – 6.
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
-                    </div>
-                    <div class="col-sm-6 col-md-4 thumbnail">
-                        <img src="../img/mo-img-2.jpg" widdh="240"height="140"  alt=""/>
-                    </div>
+                        <div class="col-sm-6 col-md-8">
 
+                            <p class="t-indent">客户培训是众森培训体系的重要内容，为了加深客户对产品的了解，熟悉产品性能和正确操作使用方法，以及规范、专业解决各个电池和组件厂家在测试中的难题，陕西众森举办“众森第一期客户培训班”，此次培训在陕西众森西安工厂举行， 10月15日开始，17日结束，会期三天;参加此次培训的客户共计20余人。</p>
+                            <p class="t-indent">这三天培训分别由陕西众森副总经理，冉总给学员详细的讲解公司发展简介，产品知识及新产品技术。优秀的售后工程师给学员讲解了太阳能设备电性能/缺陷测试仪常见故障及维护保养。除此之外我们还将邀请中国可再生能源学会理事、西安交通大学太阳能研究所黄国华老师与大家深切交流，并对太阳能模拟器与缺陷检测仪的原理及对太阳能电池检测发展趋势现场讲解。
+                                　　整个培训过程中深入浅出、理论联系实际、生动易懂、针对性强，课堂气氛十分活跃。使学员抓住了此次精髓，讲课过程中三位讲师还分别与大家探讨解决问题，使大家受益匪浅。培训结束后，陕西众森董事长为学员颁发了结业证，并评选出三名优秀学员。
+                                　　通过此次培训不仅提升了参培学员的知识技能水平，也让他们更加深入了解我公司设备的正确使用方法及维护，收到了预期的培训效果。学员一致反映很好，并希望多举动一些类似的培训课程。</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 thumbnail">
+                            <img src="../img/news/2014-10-21.jpg"  alt=""/>
+                        </div>
+                        <div class="col-sm-6 col-md-4 thumbnail">
+                            <img src="../img/news/2014-10-2102.jpg"  alt=""/>
+                        </div>
+
+                    </div>
                 </div>
             </div>
+            <!--collapsible 2-->
         </div>
-        <!--collapsible 2-->
-    </div>
-</td></tr>
+    </td></tr>
 
-<tr><td>
-    <div class="col-sm-6 col-md-12">
-        <div class="col-sm-6 col-md-3 thumbnail">
-            <img src="../img/mo-img-3.jpg" widdh="172" height="120" alt=""/>
-        </div>
-        <div class="col-sm-6 col-md-9">
-            <h4>5th Renewable Energy India 2011 EXPO</h4>
-            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad ... </p>
-            <p><small class="text-muted">2014-05-10</small></p>
 
-        </div>
-    </div>
-    <!--collapsible 3-->
-    <div class="col-sm-6 col-md-12">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <p class="panel-title text-right">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                        <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
-                    </a>
-                </p>
+    <tr><td>
+        <div class="col-sm-6 col-md-12">
+            <div class="col-sm-6 col-md-3 thumbnail">
+                <img src="../img/news/2014-7-28.jpg"  alt=""/>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse">
-                <div class="panel-body">
+            <div class="col-sm-6 col-md-9">
+                <h4>联合国工业组织太阳能培训班来我司参观访问</h4>
+                <p>2014年7月28日，联合国工业组织太阳能培训班一行20人专程来到陕西众森电...</p>
+                <p><small class="text-muted">2014-07-30</small></p>
+            </div>
+        </div>
+        <!--collapsible 1-->
+        <div class="col-sm-6 col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p class="panel-title text-right">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                            <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
+                        </a>
+                    </p>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse">
+                    <div class="panel-body">
 
-                    <div class="col-sm-6 col-md-8">
-                        <h4 class="text-center">InterSolar 2014</h4>
-                        <p>We inivite you to Intersolar 2014, Munich, Germany, June 4 – 6.
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
-                    </div>
-                    <div class="col-sm-6 col-md-4 thumbnail">
-                        <img src="../img/mo-img-2.jpg" widdh="240"height="140"  alt=""/>
-                    </div>
+                        <div class="col-sm-6 col-md-8">
 
+                            <p class="t-indent">2014年7月28日，联合国工业组织太阳能培训班一行20人专程来到陕西众森电能科技有限公司进行了参观访问。公司冉旭副总经理与其进行了亲切的座谈并陪同在公司技术中心及测试设备进行了参观。
+                                交流会上，冉旭副总经理向来宾介绍了公司的发展情况、荣誉及主要产品、回顾了公司的发展历程以及未来的发展蓝图。</p>
+                            <p class="t-indent">交流会结束后，来宾在冉旭副总经理与接待人员的陪同下参观了公司的测试设备与技术中心，了解我司的生产能力和研发能力。此次考察，联合国工业组织太阳能培训班对我司完备的管理体系、先进的技术水平、卓越的制造成绩、优质的产品质量给予了高度的评价，也非常看好我司的的发展前景，也为公司打开国际市场奠定了坚实的基础。
+                                非常感谢联合国工业组织太阳能培训班对陕西众森的认可，陕西众森也热烈欢迎各界朋友来我司实地参观考察。</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 thumbnail">
+                            <img src="../img/news/2014-7-28.jpg" alt=""/>
+                        </div>
+
+                    </div>
                 </div>
             </div>
+            <!--collapsible 1-->
         </div>
-        <!--collapsible 3-->
-    </div>
-</td></tr>
+    </td></tr>
 
-<tr><td>
-    <div class="col-sm-6 col-md-12">
-        <div class="col-sm-6 col-md-3 thumbnail">
-            <img src="../img/mo-img-4.jpg" widdh="172" height="120" alt=""/>
-        </div>
-        <div class="col-sm-6 col-md-9">
-            <h4>Solar simulator pass AAA test taken by TUV Rheinland</h4>
-            <p>Recently,all of 10 solar simulators which one of Gsolar’s cutomers is using.</p>
-            <p><small class="text-muted">2014-05-10</small></p>
-        </div>
-    </div>
-    <!--collapsible 4-->
-    <div class="col-sm-6 col-md-12">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <p class="panel-title text-right">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsefour">
-                        <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
-                    </a>
-                </p>
+    <tr><td>
+        <div class="col-sm-6 col-md-12">
+            <div class="col-sm-6 col-md-3 thumbnail">
+                <img src="../img/mo-img-1.jpg" alt=""/>
             </div>
-            <div id="collapsefour" class="panel-collapse collapse">
-                <div class="panel-body">
+            <div class="col-sm-6 col-md-9">
+                <h4>陕西众森售后服务声明</h4>
+                <p>2014年7月28日，联合国工业组织太阳能培训班一行20人专程来到陕西众森电...</p>
+                <p><small class="text-muted">2014-04-01</small></p>
+            </div>
+        </div>
+        <!--collapsible 1-->
+        <div class="col-sm-6 col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p class="panel-title text-right">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                            <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
+                        </a>
+                    </p>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body">
 
-                    <div class="col-sm-6 col-md-8">
-                        <h4 class="text-center">InterSolar 2014</h4>
-                        <p>Recently,all of 10 solar simulators which one of Gsolar’s cutomers is using.pass the AAA test taken by TUV Rheinland, including both solar cell tester and module tester.
-                            TUV Rheinland is famous for it's high-quality and rigorous test service and provides varieties of professional assessment equitably and independently.TUV test items involved six fields:transportation、science、education& Consulting、management system. the certification issued by TUV Rheinland is recognized by EU.
-                            Solar simulator test service is a new one that TUV Rheinland provides.it is done on the base of the IEC60904-9 standards strictly, Which represents the rigorous and exacting European standard.</p>
-                        </p>
-                    </div>
-                    <div class="col-sm-6 col-md-4 thumbnail">
-                        <img src="../img/mo-img-2.jpg" widdh="240"height="140"  alt=""/>
-                    </div>
+                        <div class="col-sm-6 col-md-12 col-sm-offset-1">
 
+                            <img src="../img/news/20140401.jpg" alt=""/>
+
+                        </div>
+
+
+                    </div>
                 </div>
             </div>
+            <!--collapsible 1-->
         </div>
-        <!--collapsible 4-->
-    </div>
-</td></tr>
+    </td></tr>
 
-<tr><td>
-    <div class="col-sm-6 col-md-12">
-        <div class="col-sm-6 col-md-3 thumbnail">
-            <img src="../img/mo-img-2.jpg" widdh="172" height="120" alt=""/>
-        </div>
-        <div class="col-sm-6 col-md-9">
-            <h4>5th Renewable Energy India 2011 EXPO</h4>
-            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad ... </p>
-            <p><small class="text-muted">2014-05-10</small></p>
-        </div>
-    </div>
-    <!--collapsible 5-->
-    <div class="col-sm-6 col-md-12">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <p class="panel-title text-right">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                        <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
-                    </a>
-                </p>
+    <tr><td>
+        <div class="col-sm-6 col-md-12">
+            <div class="col-sm-6 col-md-3 thumbnail">
+                <img src="../img/mo-img-3.jpg" alt=""/>
             </div>
-            <div id="collapseFive" class="panel-collapse collapse">
-                <div class="panel-body">
+            <div class="col-sm-6 col-md-9">
+                <h4>陕西众森荣获“十佳设备企业”及“最佳检测设</h4>
+                <p>2013年，陕西众森被北极星太阳能光伏网评选为2012年度“十佳光伏设备企业...</p>
+                <p><small class="text-muted">2014-03-07</small></p>
+            </div>
+        </div>
+        <!--collapsible 1-->
+        <div class="col-sm-6 col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p class="panel-title text-right">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                            <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
+                        </a>
+                    </p>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
 
-                    <div class="col-sm-6 col-md-8">
-                        <h4 class="text-center">InterSolar 2014</h4>
-                        <p>We inivite you to Intersolar 2014, Munich, Germany, June 4 – 6.
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <img src="../img/mo-img-2.jpg" widdh="240"height="140"  alt=""/>
-                    </div>
+                        <div class="col-sm-6 col-md-12">
 
+                            <p class="t-indent"> 2013年，陕西众森被北极星太阳能光伏网评选为2012年度“十佳光伏设备企业”，2014年伊始，陕西众森电能科技有限公司再获殊荣，荣获“十佳设备企业”及“最佳检测设备”两项大奖。这次奖项由shine光能杂志编辑团队部根据企业市场表现，采访反馈，信息比对，行业关注度，结合问卷调查反馈，整合整理信息源，这是市场和用户对众森的再次肯定。</p>
+                            <p class="t-indent">陕西众森当继续秉持“诚信经营、技术领先、精益求精、合作共赢”的公司理念，为“引领光伏行业发展，打造国际一流装备制造企业”的众森梦继续努力。我们愿意“为客户和社会创造价值，使员工和企业共同成长”，众森人将一如既往以“真诚、坚持、担当、奉献”的精神为全球超过500家光伏企业服务。
+                                2014，让我们一起期待光伏温暖的阳光。</p>
+                        </div>
+
+
+                    </div>
                 </div>
             </div>
+            <!--collapsible 1-->
         </div>
-        <!--collapsible 5-->
-    </div>
-</td></tr>
+    </td></tr>
 
-<tr><td>
-    <div class="col-sm-6 col-md-12">
-        <div class="col-sm-6 col-md-3 thumbnail">
-            <img src="../img/mo-img-2.jpg" widdh="172" height="120" alt=""/>
-        </div>
-        <div class="col-sm-6 col-md-9">
-            <h4>5th Renewable Energy India 2011 EXPO</h4>
-            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad ... </p>
-            <p><small class="text-muted">2014-05-10</small></p>
-        </div>
-    </div>
-    <!--collapsible 5-->
-    <div class="col-sm-6 col-md-12">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <p class="panel-title text-right">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-                        <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
-                    </a>
-                </p>
+    <tr><td>
+        <div class="col-sm-6 col-md-12">
+            <div class="col-sm-6 col-md-3 thumbnail">
+                <img src="../img/mo-img-4.jpg" alt=""/>
             </div>
-            <div id="collapseSix" class="panel-collapse collapse">
-                <div class="panel-body">
+            <div class="col-sm-6 col-md-9">
+                <h4>热烈祝贺“众森” 荣获陕西省著名商标称号</h4>
+                <p>新春伊始，陕西众森电能科技有限公司再传喜讯：我司注册的“众森”商标，被...</p>
+                <p><small class="text-muted">2014-02-09</small></p>
+            </div>
+        </div>
+        <!--collapsible 1-->
+        <div class="col-sm-6 col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p class="panel-title text-right">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
+                        </a>
+                    </p>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse">
+                    <div class="panel-body">
 
-                    <div class="col-sm-6 col-md-8">
-                        <h4 class="text-center">InterSolar 2014</h4>
-                        <p>We inivite you to Intersolar 2014, Munich, Germany, June 4 – 6.
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <img src="../img/mo-img-2.jpg" widdh="240"height="140"  alt=""/>
-                    </div>
+                        <div class="col-sm-6 col-md-12">
 
+                            <p class="t-indent"> 新春伊始，陕西众森电能科技有限公司再传喜讯：我司注册的“众森”商标，被陕西省工商总局授予“陕西省著名商标”荣誉称号。
+                                我司是陕西专业检测设备领域唯一获此殊荣的企业，也是省内唯一获此殊荣的光伏设备制造企业，突破了专业检测设备省内著名商标“零”的记录。
+                            <p class="t-indent">在经济社会高速发展的今天，每一个企业都深深了解品牌的力量，有了品牌就树立了企业良好的信誉形象，在行业内扎稳了竞争的根基。
+                            陕西众森自2006年成立以来，一直以“诚信经营，技术领先，精益求精，合作共赢”为经营理念，不断为广大客户提供最优质的产品。此次我司获此殊荣，是众森
+                            名牌战略不断推进的结果，是公众对“众森”品牌所蕴含价值的认可、对众森优良品质和优质服务的认可。</p>
+                            <p class="t-indent">陕西众森将以此为契机，以市场为导向、以质量为中心，把众森品牌做大做强，不断激励自我、努力创新，以最优的服务，最佳的品质
+                                服务广大客户，使陕西众森成为国内光伏设备制造业最具竞争力的企业。</p>
+                        </div>
+
+
+                    </div>
                 </div>
             </div>
+            <!--collapsible 1-->
         </div>
-        <!--collapsible 5-->
-    </div>
-</td></tr>
+    </td></tr>
+
+
+
+
+
 <!--Collapsible Group Item end=============-->
 </table>
 
@@ -478,16 +488,18 @@
 <a href="javascript:;"id="btn" title="back top"></a><!--返回顶部-->
 <footer class="footer">
     <div class="container">
-        <p>Copyright ? 2011 Gsolar Power Co, LTD</p>
+        <p>Copyright © 2011 陕西众森电能科技有限公司 版权所有 陕ICP备11002655号</p>
         <ul class="footer-links">
-            <li><a href="http://bloggetbootstrapcom">Blog</a></li>
+            <li><a href="">Blog</a></li>
             <li class="muted">&middot;</li>
-            <li><a href="sales-service.html">The Links</a></li>
+            <li><a href="sales-service.html">客户链接</a></li>
             <li class="muted">&middot;</li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">联系我们</a></li>
         </ul>
+
     </div>
 </footer>
+
 
 <!-- Le javascript
 ================================================== -->

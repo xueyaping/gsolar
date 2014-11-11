@@ -32,6 +32,13 @@
 
     <style type="text/css">
         {display:none}
+        .title-overflow {
+            width:230px;
+            white-space:nowrap;
+            word-break: break-all;
+            overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+            text-overflow:ellipsis;
+        }
     </style>
 
     <script>
@@ -46,22 +53,7 @@
          })();
          */
     </script>
-    <!-- <script>
-         function showdiv() {
-             document.getElementById("hpn").style.display="block";
-             document.getElementById("strHref").href="javascript:hidediv();";
-             document.getElementById("strHref").innerHTML="close";
 
-
-         }
-
-         function hidediv() {
-             document.getElementById("hpn").style.display="none";
-             document.getElementById("strHref").href="javascript:showdiv();";
-             document.getElementById("strHref").innerHTML="detailes";
-
-         }
-     </script>-->
 
 
 </head>
@@ -86,51 +78,59 @@
             <div class="navbar-collapse collapse pull-right" role="navigation"style="height:1px;"><!--栏目列表-->
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html"><i class="icon-home"></i>  Home</a>
+                        <a href="../index.html"><i class="icon-home"></i>首页</a>
                     </li>
 
                     <li class="dropdown">
-                        <a href="products.html" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
+                        <a href="products.html" class="dropdown-toggle" data-toggle="dropdown">产品中心<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="products.html#p0">New Products</a></li>
+                            <li><a href="products.html#p0">最新产品</a></li>
                             <li class="divider"></li>
-                            <li><a href="products.html#p1">Solar Simulator</a></li>
-                            <li><a href="products.html#p2">EL Detector</a></li>
-                            <li><a href="products.html#p3">Production Line</a></li>
+                            <li><a href="products.html#p1">太阳能模拟器</a></li>
+                            <li><a href="products.html#p2">太阳能组件缺陷检测仪</a></li>
+                            <li><a href="products.html#p3">太阳能组件流水线</a></li>
                         </ul>
                     </li>
 
                     <li class="dropdown">
-                        <a href="./about.html" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
+                        <a href="./about.html" class="dropdown-toggle" data-toggle="dropdown">关于我们<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="./about.html#p0">Company profile</a></li>
+                            <li><a href="./about.html#p0">公司概况</a></li>
                             <li class="divider"></li>
-                            <li><a href="./about.html#p1">Core Culture</a></li>
-                            <li><a href="./about.html#p2">Our History</a></li>
-                            <li><a href="./about.html#p3">Technical Achievement</a></li>
+                            <li><a href="./about.html#p1">核心文化</a></li>
+                            <li><a href="./about.html#p2">企业历程</a></li>
+                            <li><a href="./about.html#p3">技术认证</a></li>
                         </ul>
                     </li>
 
                     <li class="dropdown">
-                        <a href="sales-service.html"  class="dropdown-toggle" data-toggle="dropdown">Service<b class="caret"></b></a>
+                        <a href="sales-service.html"  class="dropdown-toggle" data-toggle="dropdown">技术服务<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="sales-service.html">sales Service</a></li>
+                            <li><a href="sales-service.html">销售服务</a></li>
                             <li class="divider"></li>
-                            <li><a href="after-sales.html">After-sales Service</a></li>
-                            <li><a href="service-t.html"> Technical Support</a></li>
+                            <li><a href="after-sales.html">售后服务</a></li>
+                            <li><a href="service-t.html">技术支持</a></li>
                         </ul>
                     </li>
 
-                    <li class="active"><a href="./news.html">News</a></li>
-                    <li><a href="./career.html">Career</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="news.html"  class="dropdown-toggle" data-toggle="dropdown">企业动态<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./news.html">企业动态</a></li>
+                            <li class="divider"></li>
+                            <li><a href="./news-frontier.html">技术前沿</a></li>
+                            <li><a href="./news-event.html">展会活动</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="./career.html">加入我们</a></li>
+                    <li><a href="./contact.html">联系我们</a></li>
                 </ul>
             </div>
 
         </div>
     </div>
 </div>
-
 
 <!-- Subhead
 ================================================== -->
@@ -149,27 +149,27 @@
 <div class="col-md-3">
     <div class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" >
         <ul class="nav bs-docs-sidenav">
-            <li class="li-header1"> News
+            <li class="li-header1">企业动态
                 <img src="../img/li-header-img1.png" class="li-header-img">
             </li>
-            <li> <a href="./news.html">Industy News</a></li>
-            <li><a href="news-frontier.html"> Frontier Technology</a></li>
-            <li class="active"><a href="news-event.html"> Exhibitions&Event</a></li>
+            <li> <a href="./news.html">企业新闻</a></li>
+            <li><a href="news-frontier.html">技术前沿</a></li>
+            <li class="active"><a href="news-event.html">展会活动</a></li>
 
 
 
         </ul>
         <ul class="nav bs-docs-sidenav">
-            <li class="li-header2">Contacts
+            <li class="li-header2">联系我们
                 <img src="../img/li-header-img2.png" class="li-header-img"/>
             </li>
             <li class="address-bg">
 
                 <address>
-                    <strong>  Gsolar Power Co.,Ltd.</strong><br>
-                    Tel: 86-029-89150750/51/52<br>
-                    Fax: 86-029-89150753-604<br>
-                    E-mail: sales@gsola.cn
+                    <span>陕西众森电能科技有限公司</span><br>
+                    电话: 029-89150750/51/52<br>
+                    传真: 029-89150753-604<br>
+                    邮箱: sales@gsola.cn
                 </address>
             </li>
         </ul>
@@ -181,13 +181,8 @@
 
 <div class="bs-docs-section">
     <h1 class="page-header">
-        <span class="text-muted"> Industry News</span>  </h1>
-    <p>  Gsolar Power Co., LTD is commitment to developing and promoting technology of new energy industries.
-        It is the only PV equipment producer that has TUV/CE certification in China. We have hundreds of clients,
-        own top one market share and export machines to Europe, USA, Asia etc. We are mainly developing solar cell
-        testing technology and related testing equipment, serving for photovoltaic industry. The main products are
-        IEC AAA class sun simulator, solar cell tester, auto cell sorter, outdoor module/array tester and solar
-        cell/module EL/PL defect detector, turnkey solar module production line.
+        <span class="text-muted"> 展会活动</span>  </h1>
+    <p> 企业最新参展信息
     </p>
 </div><!--bs-docs-section-->
 
@@ -197,7 +192,7 @@
 
 <div class="row">
 <div class="show-grid">
-    <div class="col-xs-pull-12">Last News</div>
+    <div class="col-xs-pull-12">展会信息</div>
 </div>
 
 
@@ -206,12 +201,12 @@
 <tr><td>
     <div class="col-sm-6 col-md-12">
         <div class="col-sm-6 col-md-3 thumbnail">
-            <img src="../img/mo-img-1.jpg"  widdh="172" height="120" alt=""/>
+            <img src="../img/mo-img-1.jpg" alt=""/>
         </div>
         <div class="col-sm-6 col-md-9">
-            <h4>InterSolar 2014</h4>
-            <p>We inivite you to Intersolar 2014, Munich, Germany, June 4 – 6...</p>
-            <p><small class="text-muted">2014-05-21</small></p>
+            <h4>2014年欧洲国际光伏巡回展</h4>
+            <p>2014年欧洲国际光伏巡回展览会(EU PVSEC 2014)...</p>
+            <p><small class="text-muted">2014-09-21</small></p>
         </div>
     </div>
     <!--collapsible 2-->
@@ -219,23 +214,22 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 <p class="panel-title text-right">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                         <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
                     </a>
                 </p>
             </div>
-            <div id="collapseOne" class="panel-collapse collapse">
+            <div id="collapseFour" class="panel-collapse collapse">
                 <div class="panel-body">
 
                     <div class="col-sm-6 col-md-8">
-                        <h4 class="text-center">InterSolar 2014</h4>
-                        <p>We inivite you to Intersolar 2014, Munich, Germany, June 4 – 6.
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+
+                        <p>2014年欧洲国际光伏巡回展览会(EU PVSEC 2014)<br/>
+                            展会时间：2014年09月23日-25日<br/>
+                            展会地点：荷兰.阿姆斯特丹</p>
                     </div>
                     <div class="col-sm-6 col-md-4 thumbnail">
-                        <img src="../img/mo-img-2.jpg" widdh="240"height="140"  alt=""/>
+                        <img src="../img/mo-img-1.jpg" widdh="240"height="140"  alt=""/>
                     </div>
 
                 </div>
@@ -251,9 +245,52 @@
             <img src="../img/mo-img-2.jpg"  widdh="172" height="120" alt=""/>
         </div>
         <div class="col-sm-6 col-md-9">
-            <h4>InterSolar 2014</h4>
-            <p>We inivite you to Intersolar 2014, Munich, Germany, June 4 – 6...</p>
-            <p><small class="text-muted">2014-05-21</small></p>
+            <h4>2014年印度新德里新能源展览会</h4>
+            <p>2014年印度新德里新能源展览会（8th Renewable Energy India 2014 Expo） ...</p>
+            <p><small class="text-muted">2014-08-20</small></p>
+        </div>
+    </div>
+    <!--collapsible 3-->
+    <div class="col-sm-6 col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <p class="panel-title text-right">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                        <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
+                    </a>
+                </p>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+
+                    <div class="col-sm-6 col-md-8">
+
+                        <p>2014年印度新德里新能源展览会（8th Renewable Energy India 2014 Expo）<br/>
+                            展览时间：2014年9月3日—5<br/>
+                            展览地点：印度•新德里 诺伊达展览中心<br/>
+                            </p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 thumbnail">
+                        <img src="../img/mo-img-2.jpg" widdh="240"height="140"  alt=""/>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--collapsible 3-->
+    </div>
+</td></tr>
+
+<tr><td>
+    <div class="col-sm-6 col-md-12">
+        <div class="col-sm-6 col-md-3 thumbnail">
+            <img src="../img/mo-img-3.jpg" alt=""/>
+        </div>
+        <div class="col-sm-6 col-md-9">
+            <h4>2014年国际太阳能技术博览会</h4>
+            <p>2014年德国慕尼黑国际太阳能技术博览会（interSolar）... </p>
+            <p><small class="text-muted">2014-05-15</small></p>
+
         </div>
     </div>
     <!--collapsible 2-->
@@ -271,13 +308,12 @@
 
                     <div class="col-sm-6 col-md-8">
                         <h4 class="text-center">InterSolar 2014</h4>
-                        <p>We inivite you to Intersolar 2014, Munich, Germany, June 4 – 6.
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                        <p>2014年德国慕尼黑国际太阳能技术博览会（interSolar）<br/>
+                            展会时间：2014年06月04日-06日<br/>
+                            展会地点：德国·慕尼黑新国际展览中心</p>
                     </div>
                     <div class="col-sm-6 col-md-4 thumbnail">
-                        <img src="../img/mo-img-2.jpg" widdh="240"height="140"  alt=""/>
+                        <img src="../img/mo-img-3.jpg"  alt=""/>
                     </div>
 
                 </div>
@@ -290,171 +326,47 @@
 <tr><td>
     <div class="col-sm-6 col-md-12">
         <div class="col-sm-6 col-md-3 thumbnail">
-            <img src="../img/mo-img-3.jpg" widdh="172" height="120" alt=""/>
+            <img src="../img/mo-img-4.jpg" alt=""/>
         </div>
         <div class="col-sm-6 col-md-9">
-            <h4>5th Renewable Energy India 2011 EXPO</h4>
-            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad ... </p>
+            <h4>2014 SNEC光伏展</h4>
+            <p>SNEC第八届(2014)国际太阳能产业及光伏工程(上海)展览会暨论坛...</p>
             <p><small class="text-muted">2014-05-10</small></p>
-
         </div>
     </div>
-    <!--collapsible 3-->
+    <!--collapsible 1-->
     <div class="col-sm-6 col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <p class="panel-title text-right">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
                         <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
                     </a>
                 </p>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse">
+            <div id="collapseOne" class="panel-collapse collapse">
                 <div class="panel-body">
 
                     <div class="col-sm-6 col-md-8">
-                        <h4 class="text-center">InterSolar 2014</h4>
-                        <p>We inivite you to Intersolar 2014, Munich, Germany, June 4 – 6.
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
-                    </div>
-                    <div class="col-sm-6 col-md-4 thumbnail">
-                        <img src="../img/mo-img-2.jpg" widdh="240"height="140"  alt=""/>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!--collapsible 3-->
-    </div>
-</td></tr>
-
-<tr><td>
-    <div class="col-sm-6 col-md-12">
-        <div class="col-sm-6 col-md-3 thumbnail">
-            <img src="../img/mo-img-4.jpg" widdh="172" height="120" alt=""/>
-        </div>
-        <div class="col-sm-6 col-md-9">
-            <h4>Solar simulator pass AAA test taken by TUV Rheinland</h4>
-            <p>Recently,all of 10 solar simulators which one of Gsolar’s cutomers is using.</p>
-            <p><small class="text-muted">2014-05-10</small></p>
-        </div>
-    </div>
-    <!--collapsible 4-->
-    <div class="col-sm-6 col-md-12">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <p class="panel-title text-right">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsefour">
-                        <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
-                    </a>
-                </p>
-            </div>
-            <div id="collapsefour" class="panel-collapse collapse">
-                <div class="panel-body">
-
-                    <div class="col-sm-6 col-md-8">
-                        <h4 class="text-center">InterSolar 2014</h4>
-                        <p>Recently,all of 10 solar simulators which one of Gsolar’s cutomers is using.pass the AAA test taken by TUV Rheinland, including both solar cell tester and module tester.
-                            TUV Rheinland is famous for it's high-quality and rigorous test service and provides varieties of professional assessment equitably and independently.TUV test items involved six fields:transportation、science、education& Consulting、management system. the certification issued by TUV Rheinland is recognized by EU.
-                            Solar simulator test service is a new one that TUV Rheinland provides.it is done on the base of the IEC60904-9 standards strictly, Which represents the rigorous and exacting European standard.</p>
+                        <h4 class="text-center">SNEC (2014) PV POWER EXPO</h4>
+                        <p> SNEC第八届(2014)国际太阳能产业及光伏工程(上海)展览会暨论坛<br/>
+                            时间：2014年5月20-22日<br/>
+                            地点：中国•上海新国际博览中心（SNIEC）（浦东新区龙阳路2345号）</p>
                         </p>
                     </div>
                     <div class="col-sm-6 col-md-4 thumbnail">
-                        <img src="../img/mo-img-2.jpg" widdh="240"height="140"  alt=""/>
+                        <img src="../img/mo-img-4.jpg"  alt=""/>
                     </div>
 
                 </div>
             </div>
         </div>
-        <!--collapsible 4-->
+        <!--collapsible 1-->
     </div>
 </td></tr>
 
-<tr><td>
-    <div class="col-sm-6 col-md-12">
-        <div class="col-sm-6 col-md-3 thumbnail">
-            <img src="../img/mo-img-2.jpg" widdh="172" height="120" alt=""/>
-        </div>
-        <div class="col-sm-6 col-md-9">
-            <h4>5th Renewable Energy India 2011 EXPO</h4>
-            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad ... </p>
-            <p><small class="text-muted">2014-05-10</small></p>
-        </div>
-    </div>
-    <!--collapsible 5-->
-    <div class="col-sm-6 col-md-12">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <p class="panel-title text-right">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                        <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
-                    </a>
-                </p>
-            </div>
-            <div id="collapseFive" class="panel-collapse collapse">
-                <div class="panel-body">
 
-                    <div class="col-sm-6 col-md-8">
-                        <h4 class="text-center">InterSolar 2014</h4>
-                        <p>We inivite you to Intersolar 2014, Munich, Germany, June 4 – 6.
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <img src="../img/mo-img-2.jpg" widdh="240"height="140"  alt=""/>
-                    </div>
 
-                </div>
-            </div>
-        </div>
-        <!--collapsible 5-->
-    </div>
-</td></tr>
-
-<tr><td>
-    <div class="col-sm-6 col-md-12">
-        <div class="col-sm-6 col-md-3 thumbnail">
-            <img src="../img/mo-img-2.jpg" widdh="172" height="120" alt=""/>
-        </div>
-        <div class="col-sm-6 col-md-9">
-            <h4>5th Renewable Energy India 2011 EXPO</h4>
-            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad ... </p>
-            <p><small class="text-muted">2014-05-10</small></p>
-        </div>
-    </div>
-    <!--collapsible 5-->
-    <div class="col-sm-6 col-md-12">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <p class="panel-title text-right">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-                        <small>Read More</small>  <span ><img src="../img/news/news-li.png"></span>
-                    </a>
-                </p>
-            </div>
-            <div id="collapseSix" class="panel-collapse collapse">
-                <div class="panel-body">
-
-                    <div class="col-sm-6 col-md-8">
-                        <h4 class="text-center">InterSolar 2014</h4>
-                        <p>We inivite you to Intersolar 2014, Munich, Germany, June 4 – 6.
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <img src="../img/mo-img-2.jpg" widdh="240"height="140"  alt=""/>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!--collapsible 5-->
-    </div>
-</td></tr>
 <!--Collapsible Group Item end=============-->
 </table>
 
@@ -472,20 +384,20 @@
 </div> <!--container-->
 
 
-
 <!-- Footer
 ==================================================== -->
 <a href="javascript:;"id="btn" title="back top"></a><!--返回顶部-->
 <footer class="footer">
     <div class="container">
-        <p>Copyright ? 2011 Gsolar Power Co, LTD</p>
+        <p>Copyright © 2011 陕西众森电能科技有限公司 版权所有 陕ICP备11002655号</p>
         <ul class="footer-links">
-            <li><a href="http://bloggetbootstrapcom">Blog</a></li>
+            <li><a href="">Blog</a></li>
             <li class="muted">&middot;</li>
-            <li><a href="sales-service.html">The Links</a></li>
+            <li><a href="sales-service.html">客户链接</a></li>
             <li class="muted">&middot;</li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">联系我们</a></li>
         </ul>
+
     </div>
 </footer>
 

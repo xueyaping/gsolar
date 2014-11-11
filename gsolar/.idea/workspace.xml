@@ -23,23 +23,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="contact.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page_ch/contact.html">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="81" selection-start="7419" selection-end="7419" vertical-scroll-proportion="0.7146254" vertical-offset="2899" max-vertical-offset="5740">
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="231" column="10" selection-start="9807" selection-end="9807" vertical-scroll-proportion="-2.0689654" vertical-offset="4560" max-vertical-offset="7100">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docs.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/docs.css">
+      <file leaf-file-name="news.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page_ch/news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="34" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="26980">
-              <folding />
+            <state line="115" column="25" selection-start="5042" selection-end="5042" vertical-scroll-proportion="0.531401" vertical-offset="1860" max-vertical-offset="12100">
+              <folding>
+                <marker date="1415606270818" expanded="true" signature="22621:22647" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,22 +53,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/page_en/p_9A.html" />
-        <option value="$PROJECT_DIR$/page_en/products.html" />
-        <option value="$PROJECT_DIR$/page_en/contact.html" />
-        <option value="$PROJECT_DIR$/page_en/service-t.html" />
-        <option value="$PROJECT_DIR$/page_ch/index.html" />
         <option value="$PROJECT_DIR$/page_en/index.html" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/css/docs.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/page_ch/about.html" />
         <option value="$PROJECT_DIR$/page_ch/service-t.html" />
-        <option value="$PROJECT_DIR$/page_ch/sales-service.html" />
+        <option value="$PROJECT_DIR$/page_ch/contact.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/page_ch/after-sales.html" />
         <option value="$PROJECT_DIR$/page_ch/career.html" />
-        <option value="$PROJECT_DIR$/page_ch/contact.html" />
+        <option value="$PROJECT_DIR$/page_ch/sales-service.html" />
+        <option value="$PROJECT_DIR$/page_en/news.html" />
+        <option value="$PROJECT_DIR$/page_en/news-frontier.html" />
+        <option value="$PROJECT_DIR$/page_ch/news.html" />
+        <option value="$PROJECT_DIR$/page_ch/news-frontier.html" />
+        <option value="$PROJECT_DIR$/page_ch/news-event.html" />
+        <option value="$PROJECT_DIR$/page_ch/about.html" />
       </list>
     </option>
   </component>
@@ -105,6 +104,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -113,101 +113,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar_english" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar_english" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page_ch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar_english" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar_english" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="log-link" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar_english" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar_english" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\web design\gsolar\img\news" />
       <recent name="F:\web design\gsolar\img" />
       <recent name="F:\web design\gsolar\page_ch" />
       <recent name="F:\web design\gsolar\page_en" />
@@ -221,6 +141,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -229,14 +157,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -253,6 +173,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7257f080-13e4-4e22-96a9-49ab2496bf83" name="Default" comment="" />
@@ -261,16 +198,35 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.49973643" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12018977" sideWeight="0.6722408" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12018977" sideWeight="0.67001116" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5002636" order="9" side_tool="true" content_ui="tabs" />
@@ -278,6 +234,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.49973643" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -296,105 +253,100 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/page_en/news.html">
+    <entry file="file://$PROJECT_DIR$/page_ch/after-sales.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="53" selection-start="5213" selection-end="5213" vertical-scroll-proportion="-1.5942029" vertical-offset="3660" max-vertical-offset="11860" />
+        <state line="233" column="29" selection-start="9917" selection-end="9917" vertical-scroll-proportion="0.33816424" vertical-offset="4380" max-vertical-offset="6040" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_en/service-t.html">
+    <entry file="file://$PROJECT_DIR$/page_ch/sales-service.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="280" column="44" selection-start="11915" selection-end="11915" vertical-scroll-proportion="0.30915576" vertical-offset="5340" max-vertical-offset="10400" />
+        <state line="309" column="47" selection-start="11918" selection-end="11918" vertical-scroll-proportion="1.7122474" vertical-offset="4740" max-vertical-offset="9080" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_en/about.html">
+    <entry file="file://$PROJECT_DIR$/page_ch/career.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="55" selection-start="4195" selection-end="4195" vertical-scroll-proportion="1.3864734" vertical-offset="492" max-vertical-offset="6840" />
+        <state line="493" column="8" selection-start="22047" selection-end="22047" vertical-scroll-proportion="0.096618354" vertical-offset="9780" max-vertical-offset="11580" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_en/index.html">
+    <entry file="file://$PROJECT_DIR$/page_ch/products.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="102" selection-start="433" selection-end="531" vertical-scroll-proportion="0.31400967" vertical-offset="0" max-vertical-offset="6940" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="895" column="26" selection-start="15335" selection-end="15335" vertical-scroll-proportion="-0.40023336" vertical-offset="18243" max-vertical-offset="119820" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13647" selection-start="14004" selection-end="14004" vertical-scroll-proportion="0.21634616" vertical-offset="0" max-vertical-offset="832">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9240">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/service-t.html">
+    <entry file="file://$PROJECT_DIR$/page_en/news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="43" selection-start="7885" selection-end="7885" vertical-scroll-proportion="0.33333334" vertical-offset="3848" max-vertical-offset="10340">
-          <folding />
+        <state line="293" column="10" selection-start="10452" selection-end="12373" vertical-scroll-proportion="0.9178744" vertical-offset="5100" max-vertical-offset="11980" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_en/news-frontier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="3" selection-start="1938" selection-end="1938" vertical-scroll-proportion="-0.2173913" vertical-offset="1140" max-vertical-offset="11580" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/2A-s1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/2A-s2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/2A-s3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/2A-b2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/2A-b1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ch/news-frontier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="309" column="49" selection-start="12813" selection-end="12813" vertical-scroll-proportion="0.0" vertical-offset="4058" max-vertical-offset="9700">
+          <folding>
+            <marker date="1415607906212" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="34" selection-start="8545" selection-end="8547" vertical-scroll-proportion="0.3325031" vertical-offset="3733" max-vertical-offset="6900">
+        <state line="231" column="10" selection-start="9807" selection-end="9807" vertical-scroll-proportion="-2.0689654" vertical-offset="4560" max-vertical-offset="7100">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page_ch/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="277" column="0" selection-start="11313" selection-end="11917" vertical-scroll-proportion="0.4347826" vertical-offset="5180" max-vertical-offset="6840">
+        <state line="109" column="16" selection-start="5192" selection-end="5192" vertical-scroll-proportion="2.6328502" vertical-offset="0" max-vertical-offset="7020">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/docs.css">
+    <entry file="file://$PROJECT_DIR$/page_ch/news-event.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="34" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="26980">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/career.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="26" selection-start="6136" selection-end="6136" vertical-scroll-proportion="0.5072464" vertical-offset="2420" max-vertical-offset="11420">
+        <state line="362" column="14" selection-start="13784" selection-end="13784" vertical-scroll-proportion="0.9524376" vertical-offset="6439" max-vertical-offset="10100">
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1415674738385" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/after-sales.html">
+    <entry file="file://$PROJECT_DIR$/page_ch/news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="22" selection-start="6030" selection-end="6030" vertical-scroll-proportion="0.072463766" vertical-offset="2880" max-vertical-offset="5880">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/sales-service.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="272" column="0" selection-start="10338" selection-end="10338" vertical-scroll-proportion="0.78478" vertical-offset="4780" max-vertical-offset="8900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/log-link/web_ico-02.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/map.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="81" selection-start="7419" selection-end="7419" vertical-scroll-proportion="0.7146254" vertical-offset="2899" max-vertical-offset="5740">
+        <state line="115" column="25" selection-start="5042" selection-end="5042" vertical-scroll-proportion="0.531401" vertical-offset="1860" max-vertical-offset="12100">
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1415606270818" expanded="true" signature="22621:22647" placeholder="..." />
           </folding>
         </state>
       </provider>
