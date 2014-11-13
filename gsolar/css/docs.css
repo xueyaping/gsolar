@@ -351,6 +351,7 @@ p.lead{
  /*图文介绍的段落文字*/
 }
 
+.t-indent {text-indent:2em; line-height:1.42857;}/*中文首行缩进*/
 
 /*图文介绍的大图样式2*/
 .span5 img {
