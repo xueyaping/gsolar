@@ -283,9 +283,24 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 }
 
 
+/* 大轮播背景重设
+-------------------------------------------------- */
 
+.carousel{position:relative}
+.carousel-inner-bg{position:relative;overflow:hidden;width:100%;background:#3366ff}
+.carousel-inner-bg>.item{display:none;position:relative;-webkit-transition:.6s ease-in-out left;-o-transition:.6s ease-in-out left;transition:.6s ease-in-out left}
+.carousel-inner-bg>.item>img,.carousel-inner>.item>a>img{line-height:1}
+.carousel-inner-bg>.active,.carousel-inner>.next,.carousel-inner>.prev{display:block}
+.carousel-inner-bg>.active{left:0}
+.carousel-inner-bg>.next,.carousel-inner>.prev{position:absolute;top:0;width:100%}
+.carousel-inner-bg>.next{left:100%}
+.carousel-inner-bg>.prev{left:-100%}
+.carousel-inner-bg>.next.left,.carousel-inner>.prev.right{left:0}
+.carousel-inner-bg>.active.left{left:-100%}
+.carousel-inner-bg>.active.right{left:100%}
 /* Marketing section of Overview
 -------------------------------------------------- */
+
 
 .marketing {
   text-align: center;
@@ -301,7 +316,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
     /*中文字体*/
 }
 .featurette-heading-ch {
-    font-size:40px;
+    font-size:36px;
     /*中文字体*/
 }
 .marketing h2 {
