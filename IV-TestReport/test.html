@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script>
+
+    function say(){
+    alert("parent.html------>I'm at parent.html");
+    }
+
+    function callChild()
+    {
+    //document.frames("myFrame").f1();
+    myFrame.window.say();
+    }
+    </script>
+ </head>
+
+<body>
+    <input type=button value="调用child.html中的函数say()"onclick="callChild()">
+     <iframe name="myFrame" src="child.html"></iframe>
+    </body>
+
+
+</html>
