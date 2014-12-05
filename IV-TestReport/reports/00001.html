@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh" xmlns="http://www.w3.org/1999/html">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="薛亚平">
+    <title>IV TestReport</title>
     <title>IV TestReport</title>
     <link href="../css/bootstrap.min.css" rel="stylesheet"/>
     <link href="../css/docs.min.css" rel="stylesheet"/>
@@ -16,13 +19,17 @@
     <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
     <style>
         a:hover small {color: #428bca;font-weight: bolder;}
+        .thumbnail {  padding:20px;background-image: url("../img/axis-iv.png");}
+        /*.row {border-left: 1px solid #efefef;border-right: 1px solid #efefef; }
+
+
     </style>
 </head>
 
 <body>
-    <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
     <div id="top" class="navbar navbar-inverse">
         <div class="navbar-inner">
             <div class="container">
@@ -58,89 +65,109 @@
     <!-- Docs page layout -->
     <div class="bs-docs-header hidden-print" id="content">
         <div class="container">
-            <h1>IV产品测试报告</h1>
+            <h1 class="">IV产品测试报告</h1>
             <p class="">陕西众森电能科技有限公司——产品测试报告</p>
 
         </div>
     </div>
 
-    <div class="container bs-docs-container">
+    <div class="container">
         <div class="row">
 
-            <div class="col-md-9 col-sm-offset-1" role="main">
-                <h1 id="2015-01-00001" class="page-header">2015-01产品报告</h1>
+            <div class="col-md-10 col-sm-offset-1" role="main">
+                <h1 id="date" class="page-header">2015-01-31 产品报告</h1><!--测试报告标题=======================-->
 
-                <!--section01-->
                 <div class="bs-docs-section">
-                    <p><stong>date-time:</stong> 2014-12-31 14:55:55</p>
-                    <img class="img-thumbnail" src="../img/00001.GIF"/>
-
-                        <div class="col-md-4">
-                            <ul class="list-unstyled">
-                                <li>Serial : 5674300001</li>
-                                <li>Eff : 0.000</li>
-                                <li>Rsh : 167.317</li>
-                                <li>Rs : 0.559</li>
-                                <li>FF : 0.758</li>
-                                <li>Isc : 7.551</li>
-                                <li>Voc : 37.1293</li>
-                                <li>Imax : 7.046</li>
-                                <li>Vmax : 30.179</li>
-                                <li>Pmax : 212.640</li>
-                                <li>Temp : 0.0</li>
-                                <li>EnviTemp : 0.0</li>
-                                <li>SurfTemp : 0.0</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4">
-                            <ul class="list-unstyled">
-                                <li>Serial : 5674300001</li>
-                                <li>Eff : 0.000</li>
-                                <li>Rsh : 167.317</li>
-                                <li>Rs : 0.559</li>
-                                <li>FF : 0.758</li>
-                                <li>Isc : 7.551</li>
-                                <li>Voc : 37.1293</li>
-                                <li>Imax : 7.046</li>
-                                <li>Vmax : 30.179</li>
-                                <li>Pmax : 212.640</li>
-                                <li>Temp : 0.0</li>
-                                <li>EnviTemp : 0.0</li>
-                                <li>SurfTemp : 0.0</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4">
-                            <ul class="list-unstyled">
-                                <li>Serial : 5674300001</li>
-                                <li>Eff : 0.000</li>
-                                <li>Rsh : 167.317</li>
-                                <li>Rs : 0.559</li>
-                                <li>FF : 0.758</li>
-                                <li>Isc : 7.551</li>
-                                <li>Voc : 37.1293</li>
-                                <li>Imax : 7.046</li>
-                                <li>Vmax : 30.179</li>
-                                <li>Pmax : 212.640</li>
-                                <li>Temp : 0.0</li>
-                                <li>EnviTemp : 0.0</li>
-                                <li>SurfTemp : 0.0</li>
-                            </ul>
-                        </div>
+                    <!--报告人信息====================================================================================-->
+                    <ul class="list list-inline">
+                        <li id="datetime">测试时间: datetime&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                        <li id="grade">测试档位：grade&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                        <li id="user">报告人：user&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                        <br/>
+                        <li id="factory">测试单位：</li>
+                    </ul>
+                    <!--IV曲线截图====================================================================================-->
+                    <div class="thumbnail">
+                        <img id="imgpath"  src="../img/00001.jpg"/>
                     </div>
+                    <!--主要测试数据start=========================================-->
+                        <div class="table table-responsive">
+                            <h4 class=""><stong>主要参数: </stong></h4>
+                            <table class="table table-bordered table-striped ">
+                                <tr>
+                                    <td id="sn">Serial : 5674300001</td>
+                                    <td id="eff">Eff : 0.000</td>
+                                    <td id="rsh">Rsh : 167.317</td>
+                                    <td id="rs">Rs : 0.559</td>
+                                </tr>
+                                <tr>
+                                    <td id="ff">FF : 0.758</td>
+                                    <td id="isc">Isc : 7.551</td>
+                                    <td id="voc">Voc : 37.1293</td>
+                                    <td id="imax">Imax : 7.046</td>
+                                </tr>
+                                <tr>
+                                    <td>Vmax : 30.179</td>
+                                    <td>Pmax : 212.640</td>
+                                    <td>Temp : 0.0</td>
+                                    <td>EnviTemp : 0.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Vmax : 30.179</td>
+                                    <td>Pmax : 212.640</td>
+                                    <td>Temp : 0.0</td>
+                                    <td>EnviTemp : 0.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Vmax : 30.179</td>
+                                    <td>Pmax : 212.640</td>
+                                    <td class="text-danger">Temp : 0.0</td>
+                                    <td>EnviTemp : 0.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Vmax : 30.179</td>
+                                    <td>Pmax : 212.640</td>
+                                    <td class="">Temp : 0.0</td>
+                                    <td>EnviTemp : 0.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Vmax : 30.179</td>
+                                    <td>Pmax : 212.640</td>
+                                    <td>Temp : 0.0</td>
+                                    <td>EnviTemp : 0.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Vmax : 30.179</td>
+                                    <td>Pmax : 212.640</td>
+                                    <td>Temp : 0.0</td>
+                                    <td>EnviTemp : 0.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Vmax : 30.179</td>
+                                    <td>Pmax : 212.640</td>
+                                    <td>Temp : 0.0</td>
+                                    <td>EnviTemp : 0.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Vmax : 30.179</td>
+                                    <td>Pmax : 212.640</td>
+                                    <td>Temp : 0.0</td>
+                                    <td>EnviTemp : 0.0</td>
+                                </tr>
+                            </table>
+                        </div><!--主要测试数据end================================-->
 
-                </div>
 
-            </div>
-
+                </div><!--bs-docs-section-->
+            </div><!--col-md-10-->
         </div><!--row-->
     </div><!--container-->
 
-    <footer class="bs-docs-footer">
-        <div class="container">
-            <p>陕西众森电能科技有限公司</p>
+    <footer class="bs-docs-footer hidden-print">
+        <div class="container hidden-print">
+            <p>陕西众森电能科技有限公司&nbsp;&nbsp;<span class="text-danger"> 售后服务热线：4008 160 150</span></p>
         </div>
     </footer>
-
     <script src="jquery/jquery.min.js"></script>
     <script src="js/docs.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
