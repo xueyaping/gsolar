@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Gsolar</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="薛亚平">
+      <meta charset="utf-8">
+      <title>Gsolar陕西众森电能科技有限公司</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="太阳能光伏,光伏,太阳能,光伏发电,光伏行业,陕西众森,众森电能，太阳能检测设备，太阳模拟器，缺陷检测仪">
+      <meta name="description" content="陕西众森电能科技有限公司是一家研发、设计、生产、销售、服务为一体的高新技术企业，国内著名测试仪的生产厂家。目前已形成太阳模拟器、太阳电池缺陷检测仪、太阳电池组件生产线三大系列二十余种产品。销售电话：029 82682948">
+      <meta name="author" content="薛亚平">
 
      <!-- Bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -25,9 +26,12 @@
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
                     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="assets/ico/favicon.png">
-  
 
-
+      <link href="../movies/video-js.css" rel="stylesheet" type="text/css">
+      <script src="../movies/video.js">//js视频库文件</script>
+      <script>
+          videojs.options.flash.swf = "../movies/video-js.swf";
+      </script>
   <script>
 
      /*var _gaq = _gaq || [];
@@ -40,10 +44,6 @@
       })();
       */
     </script>
-
-    <script src="http://jwpsrv.com/library/G5k9ZD5EEeS+YSIACyaB8g.js">//视频播放</script>
-  
-        
   </head>
  
   <body data-spy="scroll" data-target=".bs-docs-sidenav" data-offset="80">
@@ -277,7 +277,7 @@
                               <td>220V±10%，10A，50HZ</td>
                           </tr>
                           <tr>
-                              <td>外形尺寸：</td>
+                              <td>外形尺寸（长x宽x高）：</td>
                               <td>6000×2500×2500mm（不含暗室支架高度，即链道高度）</td>
                           </tr>
 
@@ -371,23 +371,19 @@
 
             <div class="row">
 
-              <div class="col-sm-6 col-md-9">
-                  <div class="media">
+                <div class="col-sm-6 col-md-9 media">
 
-                  </div>
-
-                <div id='playerXBBrQtlKySeJ'></div>
-                  <script type='text/javascript'>
-                      jwplayer('playerXBBrQtlKySeJ').setup({
-                          file: '../movies/GIV-2A.mp4',
-                          image: '../img/2A-b2.png',
-                          title: 'GIV-1A/GIV-2A',
-                          width: '100%',
-                          aspectratio: '3:2',
-                          mute: 'true'
-                      });
-                  </script>
-              </div>
+                    <video id="myvideo" class="video-js vjs-default-skin" preload="auto"  width="600" height="450"
+                           poster="../img/bg-video.png">
+                        <source src="../movies/GIV-2A.mp4" type='video/mp4' />
+                        <source src="http://视频地址格式2.webm" type='video/webm' />
+                        <source src="http://视频地址格式3.ogv" type='video/ogg' />
+                    </video>
+                    <script type="text/javascript">
+                        videojs("myvideo",{"controls":true,"autoplay":false
+                        })
+                    </script>
+                </div>
 
             </div><!--row-->
           </div><!--bs-docs-section-->
@@ -406,13 +402,12 @@
         <div class="container">
             <p>Copyright © 2011 陕西众森电能科技有限公司 版权所有 陕ICP备11002655号</p>
             <ul class="footer-links">
-                <li><a href="">Blog</a></li>
+                <li><a href="sales-service.html#link">合作伙伴</a></li>
                 <li class="muted">&middot;</li>
-                <li><a href="../page_ch/sales-service.html#link">客户链接</a></li>
+                <li><a href="career.html">加入我们</a></li>
                 <li class="muted">&middot;</li>
-                <li><a href="../page_ch/contact.html">联系我们</a></li>
+                <li><a href="contact.html">联系我们</a></li>
             </ul>
-
         </div>
     </footer>
 

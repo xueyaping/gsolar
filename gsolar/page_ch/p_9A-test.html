@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Gsolar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="薛亚平">
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/docs.css" rel="stylesheet">
+
+
+    <script src="../js/backtop.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <link href="../movies/video-js.css" rel="stylesheet" type="text/css">
+    <script src="../movies/video.js"></script>
+    <script>
+        videojs.options.flash.swf = "../movies/video-js.swf";
+    </script>
+    <script>
+
+        /*var _gaq = _gaq || [];
+         _gaq.push(['_setAccount', 'UA-146052-10']);
+         _gaq.push(['_trackPageview']);
+         (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+         */
+    </script>
+
+    <!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js">//Gdd视频播放</script>
+    <script type="text/javascript" src="http://www.stephenbelanger.com/wp-content/uploads/2010/01/jquery.flash.min_.js"></script>
+    <!--<script type="text/javascript" src="../ckplayer/ckplayer.js" charset="utf-8">//酷播</script>-->
+
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidenav" data-offset="80">
+
+
+<!-- Navbar导航条
+ ================================================== -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <div class="navbar-header"><!--公司logo-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html"><img src="../img/logo-white.png" alt="Gsolar"/></a>
+            </div>
+
+            <div class="navbar-collapse collapse pull-right" role="navigation"style="height:1px;"><!--栏目列表-->
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="../index.html"><i class="icon-home"></i>首页</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="products.html" class="dropdown-toggle" data-toggle="dropdown">产品中心<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="products.html#p0">最新产品</a></li>
+                            <li class="divider"></li>
+                            <li><a href="products.html#p1">太阳模拟器</a></li>
+                            <li><a href="products.html#p2">太阳电池缺陷检测仪</a></li>
+                            <li><a href="products.html#p3">太阳组件流水线</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="./about.html" class="dropdown-toggle" data-toggle="dropdown">关于我们<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./about.html#p0">公司概况</a></li>
+                            <li class="divider"></li>
+                            <li><a href="./about.html#p1">核心文化</a></li>
+                            <li><a href="./about.html#p2">企业历程</a></li>
+                            <li><a href="./about.html#p3">技术认证</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="sales-service.html"  class="dropdown-toggle" data-toggle="dropdown">技术服务<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="sales-service.html">销售服务</a></li>
+                            <li class="divider"></li>
+                            <li><a href="after-sales.html">售后服务</a></li>
+                            <li><a href="service-t.html">技术支持</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="news.html"  class="dropdown-toggle" data-toggle="dropdown">企业动态<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./news.html">企业动态</a></li>
+                            <li class="divider"></li>
+                            <li><a href="./news-frontier.html">技术前沿</a></li>
+                            <li><a href="./news-event.html">展会活动</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="./career.html">加入我们</a></li>
+                    <li><a href="./contact.html">联系我们</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+    <!-- Subhead
+================================================== -->
+    <div class="jumbotron subhead" id="overview">
+        <div class="container">
+
+        </div>
+    </div>
+
+<!-- Container
+      ================================================== -->
+<div class="container">
+    <div class="row">
+        <!--====侧边导航===-->
+        <div class="col-md-3">
+            <div class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix"role="complementary">
+                <ul class="nav bs-docs-sidenav">
+                    <li class="li-header1">产品中心
+                        <img src="../img/li-header-img1.png" class="li-header-img">
+                    </li>
+                    <li><a href="products.html#p0">最新产品</a></li>
+                    <li  class="active"><a href="products.html#p1">太阳模拟器</a></li>
+                    <li><a href="products.html#p2">太阳电池缺陷检测仪</a></li>
+                    <li><a href="products.html#p3">太阳组件流水线</a></li>
+
+                </ul>
+                <ul class="nav bs-docs-sidenav">
+                    <li class="li-header2">联系我们
+                        <img src="../img/li-header-img2.png" class="li-header-img"/>
+                    </li>
+                    <li class="address-bg">
+
+                        <address>
+                            <span>陕西众森电能科技有限公司</span><br>
+                            电话: 029-89150750/51/52<br>
+                            传真: 029-89150753-604<br>
+                            邮箱: sales@gsola.cn
+                        </address>
+                    </li>
+                </ul>
+            </div>
+        </div><!--/col-md-3-->
+
+        <div class="col-md-9" role="main">
+
+          <div class="bs-docs-section">
+            <h1 class="page-header">
+            <span class="text-muted">XJCM-9A (IEC AAA)</span>  </h1>
+            
+            <p class="t-indent"> XJCM-9A太阳能组件测试仪采用了一种新型太阳能模拟器，主要技术指标可达到IEC60904-9中的AAA级标准，该系统采取独特的下打光模式，
+                利用氙灯模拟太阳光进行测试。此款设备可加自动导轨用于流水线，可达到对大功率太阳电池组件快速测试要求。测试系统的基本原理是，
+                当太阳模拟光照到被测太阳电池组件上时，用电子负载控制太阳电池组件中电流变化，测出组件伏安特性曲线上的电压和电流。</p>
+             <p class="t-indent">XJCM-9A太阳能组件测试仪测试对象为太阳能晶硅组件。产品正面向下搬运到设备上或已加导轨宽边进料传输。 </p><br>
+          </div><!--bs-docs-section-->
+
+          <!--product picture==================================-->
+    	  <div class="bs-docs-section">
+	    	<div class="row">
+
+                  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                      <!-- Wrapper for slides -->
+                    <div class="col-sm-6 col-md-9">
+                      <div class="thumbnail">
+                        <div class="carousel-inner">
+                          <div class="item active">
+                              <img src="../img/9A-b1.png" alt=""/>
+                          </div>
+                          <div class="item">
+                              <img src="../img/9A-b2.png" alt=""/>
+                          </div>
+                          <div class="item">
+                              <img src="../img/9A-b3.png" alt=""/>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+		            <div class="col-sm-6 col-md-3">
+                      <div class="thumbnail">
+                          <img data-target="#carousel-example-generic" data-slide-to="0" class="active" src="../img/9A-s1.png"/>
+                      </div>
+                      <div class="thumbnail">
+                          <img data-target="#carousel-example-generic" data-slide-to="1" class="active" src="../img/9A-s2.png"/>
+                      </div>
+                      <div class="thumbnail">
+                          <img data-target="#carousel-example-generic" data-slide-to="2" class="active" src="../img/9A-s3.png"/>
+                      </div>
+                    </div>
+                  </div><!-- /carousel -->
+
+            </div><!--row end-->
+		  </div><!--bs-docs-section end-->
+
+
+          <!--Performance============================-->
+          <div class="bs-docs-section">
+            <p class="pager-title">主要技术参数</p><br/>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-9">
+                   <div class="panel panel-default">
+                      <table class="table table-bordered table-responsive">
+                        <thead>
+                          <tr class="active">
+                            <th>型号:</th>
+                            <th>XJCM-9A</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>最大可测组件尺寸：</td>
+                            <td>2000x1100mm</td>
+                        </tr>
+                        <tr>
+                            <td>光源：</td>
+                            <td>进口脉冲氙灯</td>
+                        </tr>
+                        <tr>
+                            <td>灯管寿命:</td>
+                            <td>10万次</td>
+                        </tr>
+                        <tr>
+                            <td>幅照度范围:</td>
+                            <td>200-1200W/㎡</td>
+                        </tr>
+                        <tr>
+                            <td>光谱匹配:</td>
+                            <td>0.75-1.25 (A 级)</td>
+                        </tr>
+                        <tr>
+                            <td>幅照度不稳定性:</td>
+                            <td><2% (A 级)</td>
+                        </tr>
+                        <tr>
+                            <td>幅照度不均匀性:</td>
+                            <td><2% (A 级)同片电池在有效测试面积内不重复测试66个点
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>重复精度：</td>
+                            <td>＜0.5%，同片电池连续测试40次</td>
+                        </tr>                        <tr>
+                            <td>测量档位：</td>
+                            <td>电压 0-1V/10V/50V/100V<br/>
+                                电流 0.25A/1A/2.5A/10A（可软件选择）</td>
+                        </tr>
+                        <tr>
+                            <td>测试分辨率：</td>
+                            <td>电压：0.1%，电流：0.1%</td>
+                        </tr>
+                        <tr>
+                            <td>工作方式:</td>
+                            <td>单次闪光自动测I-V曲线</td>
+                        </tr>
+                        <tr>
+                            <td>电源要求：</td>
+                            <td>220V±10%，10A，50HZ</td>
+                        </tr>
+                        <tr>
+                            <td>外形尺寸：</td>
+                            <td>2500×1500×900mm</td>
+                        </tr>
+
+                        </tbody>
+                      </table>
+                   </div>
+                   <div>
+                      <dl class="list-group">
+                          <p><strong>特点及优点</strong></p>
+                          <p class="list-unstyled"><i><img src="../img/list-img.png"/></i> 可测量参数：I-V曲线，短路电流，开路电压，峰值功率，峰值功率点电压、电流，定电压点电流，填充因子，转换效率，串联电阻，并联电阻。</p>
+                          <p class="list-unstyled"><i><img src="../img/list-img.png"/></i> 3A标准：光谱A级、辐照不均匀度A级、辐照不稳定性A级</p>
+                          <p class="list-unstyled"><i><img src="../img/list-img.png"/></i> 准确性：太阳电池组件采用四线连接，确保了太阳电池电流测量的准确性。</p>
+                          <p class="list-unstyled"><i><img src="../img/list-img.png"/></i> 温度修正：红外测温，确保了太阳电池温度修正的准确性。</p>
+                          <p class="list-unstyled"><i><img src="../img/list-img.png"/></i> 测试对象：可测各种太阳电池组件。</p>
+                          <p class="list-unstyled"><i><img src="../img/list-img.png"/></i> 测试快捷：单次测试耗时小于1秒，测试间隔小于10秒。</p>
+
+
+                      </dl>
+                   </div>
+              </div>
+
+              <div class="col-sm-6 col-md-3" >
+                  <h3 class="text-center">
+                      <a href="../pdf/9A.zip" class="btn btn-success" role="button"><span class="glyphicon glyphicon-save"></span> Download </a>
+                  </h3>
+                  <h3 class="text-center">
+                      <a href="../pdf/9A.pdf" class="btn btn-success" role="button"><span class="glyphicon glyphicon glyphicon-share"></span> Open PDF</a>
+                  </h3>
+              </div>
+
+            </div><!--row-->
+          </div><!--bs-docs-section-->
+
+          <!--Performance============================-->
+          <div  class="bs-docs-section">
+            <p class="pager-title">设备视频</p><br/>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-9 media">
+                    <video id="myvideo" class="video-js vjs-default-skin" preload="auto"  width="600" height="450"
+                           poster="../img/bg-video.png"
+                          >
+                        <source src="../movies/XJCM-9.mp4" type='video/mp4' />
+                        <source src="http://视频地址格式2.webm" type='video/webm' />
+                        <source src="http://视频地址格式3.ogv" type='video/ogg' />
+                        <track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+                        <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+                    </video>
+
+                    <script type="text/javascript">
+
+                        videojs("myvideo",{"controls":true,"autoplay":false
+
+                        })
+                    </script>
+                   <!-- <div id="myplayer">
+                        <embed src="http://www.gdd.ro/gdd/flvplayer/gddflvplayer.swf"
+                               flashvars="?&autoplay=false&sound=70&mylogo=http%3A%2F%2Fgsolar%2Eqiniudn%2Ecom%2Fimg%2Flogo%2Dwhite%2Epng&buffer=2&vdo=http%3A%2F%2Fgsolar%2Eqiniudn%2Ecom%2Fmovies%2FXJCM%2D9A%2Emp4"
+                               width="600" height="400" allowFullScreen="true" quality="best" wmode="transparent" allowScriptAccess="always"  pluginspage="http://www.macromedia.com/go/getflashplayer"  type="application/x-shockwave-flash"></embed>
+                    </div>
+
+
+                    <!--<div id="a1"></div>
+                    <script type="text/javascript">
+                        var flashvars={
+                            f:'../movies/GIV-2A.mp4',
+                            c:0,
+                            p:0,
+                            m:1,
+                            i:'../img/bg-video.png',
+                            loaded:'loadedHandler'
+                        };
+                        var video=['../movies/XJCM-9A.mp4'];
+                        CKobject.embed('../ckplayer/ckplayer.swf','a1','ckplayer_a1','600','400',false,flashvars,video);
+                    </script>-->
+                </div>
+
+            </div><!--row-->
+          </div><!--bs-docs-section-->
+
+        </div><!--/col-md-9 end-->
+        
+      </div><!--row-->
+    </div> <!--container-->
+
+
+
+   <!-- Footer
+===   ==================================================== -->
+   <a href="javascript:;"id="btn" title="back top"></a><!--返回顶部-->
+   <footer class="footer">
+       <div class="container">
+           <p>Copyright © 2011 陕西众森电能科技有限公司 版权所有 陕ICP备11002655号</p>
+           <ul class="footer-links">
+               <li><a href="">Blog</a></li>
+               <li class="muted">&middot;</li>
+               <li><a href="../page_ch/sales-service.html#link">客户链接</a></li>
+               <li class="muted">&middot;</li>
+               <li><a href="../page_ch/contact.html">联系我们</a></li>
+           </ul>
+
+       </div>
+   </footer>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platformtwittercom/widgets.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.js"></script>
+
+    <script src="./js/bootstrap-scrollspy.js"></script>
+
+
+
+
+
+    <!-- Analytics
+    ================================================== -->
+    <script >
+        $('.dropdown-toggle').dropdown()
+    </script>
+    <script>
+        $('#navbar').scrollspy()
+        $('[data-spy="scroll"]').each(function () {
+            var $spy = $(this).scrollspy('refresh')
+        });
+    </script>
+
+    <script>
+        var _gauges = _gauges || [];
+        (function() {
+            var t   = document.createElement('script');
+            t.type  = 'text/javascript';
+            t.async = true;
+            t.id    = 'gauges-tracker';
+            t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
+            t.src = '//secure.gaug.es/track.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(t, s);
+        })();
+    </script>
+
+    <script>
+
+        $(function(){
+            $(".dropdown").mouseover(function(){
+                $(this).children("ul").show();
+            })
+
+            $(".dropdown").mouseout(function(){
+                $(this).children("ul").hide();
+
+            })
+        })/*活动下拉菜单*/
+
+    </script>
+
+
+
+  </body>
+</html>

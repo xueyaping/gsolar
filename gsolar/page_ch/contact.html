@@ -2,9 +2,10 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
-    <title>Gsolar</title>
+    <title>Gsolar陕西众森电能科技有限公司</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="keywords" content="太阳能光伏,光伏,太阳能,光伏发电,光伏行业,陕西众森,众森电能，太阳能检测设备，太阳模拟器，缺陷检测仪">
+    <meta name="description" content="陕西众森电能科技有限公司是一家研发、设计、生产、销售、服务为一体的高新技术企业，国内著名测试仪的生产厂家。目前已形成太阳模拟器、太阳电池缺陷检测仪、太阳电池组件生产线三大系列二十余种产品。销售电话：029 82682948">
     <meta name="author" content="薛亚平">
 
     <!-- Bootstrap -->
@@ -28,7 +29,13 @@
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
+    <style type="text/css">
 
+        .text-center {display:block;width:150px;text-align: center}
+    </style>
+    <!--引用百度地图API-->
+
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 
     <script>
 
@@ -42,10 +49,7 @@
          })();
          */
     </script>
-
-
 </head>
-
 <body data-spy="scroll" data-target=".bs-docs-sidenav" data-offset="80">
 
 
@@ -173,9 +177,8 @@
 
               <div class="col-sm-6 col-md-6 thumbnail">
 
-                  <a href='http://api.map.baidu.com/geocoder?address=西安经济技术开发区尚稷路服务外包产业园8号楼&output=html' target='_blank'>
-                    <img src="../img/bdmap.png" class="img-responsive"  />
-                  </a>
+                  <!--百度地图容器-->
+                  <div style="width:414px;height:240px;border:#ccc solid 1px;" id="dituContent"></div>
               </div>
 
             </div><!--row-->
@@ -185,12 +188,17 @@
             <!--map================-->
           <div class="bs-docs-section">
             <div class="row">
-                <div class="col-sm-6 col-md-6">
-                    <h4>关注我们</h4>
-
-                    <img class="img-thumbnail" src="../img/wb.png" width="150" style="margin-right: 10px">
+                <div class="col-sm-6 col-md-3">
+                    <img src="../img/wb.png" width="150" >
+                    <div>
+                        <p class="text-center">官方微博</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
                     <img src="../img/wx.jpg" width="150">
-
+                    <div>
+                        <p class="text-center">官方微信</p>
+                    </div>
                 </div>
                 <br/>
                 <br/>
@@ -223,13 +231,12 @@
     <div class="container">
         <p>Copyright © 2011 陕西众森电能科技有限公司 版权所有 陕ICP备11002655号</p>
         <ul class="footer-links">
-            <li><a href="">Blog</a></li>
+            <li><a href="sales-service.html#link">合作伙伴</a></li>
             <li class="muted">&middot;</li>
-            <li><a href="page_ch/sales-service.html">客户链接</a></li>
+            <li><a href="career.html">加入我们</a></li>
             <li class="muted">&middot;</li>
-            <li><a href="page_ch/contact.html">联系我们</a></li>
+            <li><a href="contact.html">联系我们</a></li>
         </ul>
-
     </div>
 </footer>
 
@@ -288,5 +295,45 @@
         })
 
     </script>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+    }
+
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(108.859473,34.374502);//定义一个中心点坐标
+        map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.disableDoubleClickZoom();//禁用鼠标双击放大
+        map.disableKeyboard();//禁用键盘上下左右键移动地图，默认禁用(可不写)
+    }
+
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+        var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_ZOOM});
+        map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+        var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+        map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+        var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+        map.addControl(ctrl_sca);
+    }
+
+
+    initMap();//创建和初始化地图
+</script>
   </body>
 </html>

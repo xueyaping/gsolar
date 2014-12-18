@@ -11,7 +11,6 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/docs.css" rel="stylesheet">
 
-
     <script src="../js/backtop.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -42,8 +41,13 @@
          })();
          */
     </script>
-
-
+    <!--引用百度地图API-->
+    <style type="text/css">
+        html,body{margin:0;padding:0;}
+        .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+        .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 </head>
 
 <body data-spy="scroll" data-target=".bs-docs-sidenav" data-offset="80">
@@ -158,14 +162,14 @@
             <div class="row">
             <h1 class="page-header">
               <span class="text-muted"> Our Address </span>  </h1>
-              <div class="col-sm-6 col-md-4">
+              <div class="col-sm-6 col-md-6">
                   <h4> Gsolar Power Co.,Ltd.</h4>
                   <p> #8 Building of Service Outsourcing Industrial Park,
                         Shangji Road, Xi’an Economic & Technological Development Zone,
                         Xi’an, Shaanxi China, PRC
                   </p>
                   <p>zip:710000</p>
-                  <h4 class="page-header">Contact us</h4>
+                  <h4>Contact us</h4>
 
                   <address >
                       <span class="text-danger">Tel: </span>86-029-89150750/51/52<br/>
@@ -185,12 +189,10 @@
 
           <!--map================-->
 
-              <div class="col-sm-6 col-md-8">
-                <h1>  <img src="../img/google-map.jpg" class="img-responsive"  /></h1>
-              </div>
-              <div class="col-sm-6 col-md-12">
-
-              </div>
+                <!--百度地图容器-->
+                <div class="col-sm-6 col-md-6 thumbnail">
+                    <div style="width:414px;height:240px;border:#ccc solid 1px;" id="dituContent"></div>
+                </div>
 
 
             </div><!--row-->
@@ -273,6 +275,46 @@
             })
         })
 
+    </script>
+    <script type="text/javascript">
+        //创建和初始化地图函数：
+        function initMap(){
+            createMap();//创建地图
+            setMapEvent();//设置地图事件
+            addMapControl();//向地图添加控件
+        }
+
+        //创建地图函数：
+        function createMap(){
+            var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+            var point = new BMap.Point(108.859473,34.374502);//定义一个中心点坐标
+            map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+            window.map = map;//将map变量存储在全局
+        }
+
+        //地图事件设置函数：
+        function setMapEvent(){
+            map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+            map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+            map.disableDoubleClickZoom();//禁用鼠标双击放大
+            map.disableKeyboard();//禁用键盘上下左右键移动地图，默认禁用(可不写)
+        }
+
+        //地图控件添加函数：
+        function addMapControl(){
+            //向地图中添加缩放控件
+            var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_ZOOM});
+            map.addControl(ctrl_nav);
+            //向地图中添加缩略图控件
+            var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+            map.addControl(ctrl_ove);
+            //向地图中添加比例尺控件
+            var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+            map.addControl(ctrl_sca);
+        }
+
+
+        initMap();//创建和初始化地图
     </script>
   </body>
 </html>
