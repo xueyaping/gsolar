@@ -41,7 +41,11 @@
          })();
          */
     </script>
-    <script src="http://jwpsrv.com/library/G5k9ZD5EEeS+YSIACyaB8g.js">//视频播放</script>
+    <link href="../movies/video-js.css" rel="stylesheet" type="text/css">
+    <script src="../movies/video.js">//js视频库文件</script>
+    <script>
+        videojs.options.flash.swf = "../movies/video-js.swf";
+    </script>
     <script type="text/javascript">
         //弹出隐藏层
         function ShowDiv(show_div,bg_div){
@@ -64,31 +68,18 @@
 
 
     <style>
-        .black_overlay{
-            display: none;
-            position: absolute;
-            top: 10%;
-            left: 10%;
-            width: 80%;
-            height: 60%;
-            background-color: black;
-            z-index:1001;
-            -moz-opacity: 0.8;
-            opacity:.80;
-            filter: alpha(opacity=80);
-        }
+
         .white_content {
             display: none;
             position: absolute;
             top: 10%;
             left: 10%;
-            width: 80%;
-            height: 60%;
+            width: 75%;
+            height: auto;
             border: 1px solid #d5d5d5;
             -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.075);
             -moz-box-shadow: 0 1px 2px rgba(0,0,0,.075);
             box-shadow: 0 1px 2px rgba(0,0,0,.075);
-            background-color: #f7f7f7;
             z-index:1002;
             overflow: auto;
         } /*弹出层样式*/
@@ -259,11 +250,11 @@
               <!-- ===========video Div  1==========-->
                 <div class="col-sm-6 col-md-4">
                   <div class="thumbnail">
-                     <img src="../img/mo-img-1.jpg" alt="172x120"/>
-                      <h5 class="text-center">
-                        <button id="Button1" type="button" value="GIV-2A" onclick="ShowDiv('MyDiv','fade')" class="btn btn-danger btn-xs btn-block " >
-                        <span class="glyphicon glyphicon-play pull-left"> </span><strong> &nbsp;&nbsp;GIV-2A</strong></button>
-                      </h5>
+                     <img src="../img/9A-b1.png" alt="172x120"/>
+                      <p class="text-center">
+                        <button id="Button1" type="button" value="XJCM-9A" onclick="ShowDiv('MyDiv','fade')" class="btn btn-danger btn-xs btn-block " >
+                        <span class="glyphicon glyphicon-play pull-left"> </span>XJCM-9A 安装演示</button>
+                      </p>
                   </div>
                 </div>
 
@@ -274,22 +265,19 @@
                     <div class="panel-title">
                         <button class="btn btn-danger btn-sm pull-right" onclick="CloseDiv('MyDiv','fade')">
                         <span aria-hidden="true" class="glyphicon glyphicon-remove"></span>Close</button>
-                        <h4>Video GIV-2A</h4>
+                        <h4>Video XJCM-9A</h4>
 
                     </div>
 
                     <div class="panel-body">
-                          <div id='playerXBBrQtlKySeJ'></div>
-                          <script type='text/javascript'>
-                              jwplayer('playerXBBrQtlKySeJ').setup({
-                                  file: '../movies/9A.mp4',
-                                  image: '../img/9A.jpg',
-                                  title: '9A',
-                                  width: '100%',
-                                  aspectratio: '3:2',
-                                  mute: 'true'
-                              });
-                          </script>
+                            <video id="myvideo" class="video-js vjs-default-skin" preload="auto"  width="600" height="450"
+                                   poster="../img/bg-video.png">
+                                <source src="../movies/training-9A.mp4" type='video/mp4' />
+                            </video>
+                            <script type="text/javascript">
+                                videojs("myvideo",{"controls":true,"autoplay":false
+                                })
+                            </script>
                     </div>
                   </div>
 
@@ -300,11 +288,11 @@
                 <!-- ===========video Div 2==========-->
                   <div class="col-sm-6 col-md-4">
                       <div class="thumbnail">
-                          <img src="../img/mo-img-1.jpg" alt="172x120"/>
-                          <h5 class="text-center">
-                              <button id="Button2" type="button" value="GIV-2A" onclick="ShowDiv('MyDiv','fade')" class="btn btn-danger btn-xs btn-block " >
-                                  <span class="glyphicon glyphicon-play pull-left"> </span><strong> &nbsp;&nbsp;XJCM-9A</strong></button>
-                          </h5>
+                          <img src="../img/9-b1.png" alt="172x120"/>
+                          <p class="text-center">
+                              <button id="Button2" type="button" value="XJCM-9" onclick="ShowDiv('MyDiv2','fade')" class="btn btn-danger btn-xs btn-block " >
+                                  <span class="glyphicon glyphicon-play pull-left"> </span>XJCM-9 安装演示</button>
+                          </p>
                       </div>
                   </div>
 
@@ -312,23 +300,20 @@
                   <div id="MyDiv2" class="white_content">
                       <div class="panel">
                           <div class="panel-title">
-                              <button class="btn btn-danger btn-sm pull-right" onclick="CloseDiv('MyDiv','fade')">
+                              <button class="btn btn-danger btn-sm pull-right" onclick="CloseDiv('MyDiv2','fade')">
                                   <span aria-hidden="true" class="glyphicon glyphicon-remove"></span>Close</button>
-                              <h4>Video XJCM-9A</h4>
+                              <h4>Video XJCM-9</h4>
 
                           </div>
 
                           <div class="panel-body">
-                              <div id='playerXBBrQtlKySeJ'></div>
-                              <script type='text/javascript'>
-                                  jwplayer('playerXBBrQtlKySeJ').setup({
-                                      file: '../movies/9A.mp4',
-                                      image: '../img/9A.jpg',
-                                      title: '9A',
-                                      width: '100%',
-                                      aspectratio: '3:2',
-                                      mute: 'true'
-                                  });
+                              <video id="myvideo2" class="video-js vjs-default-skin" preload="auto"  width="600" height="450"
+                                     poster="../img/bg-video.png">
+                                  <source src="../movies/training-9.mp4" type='video/mp4' />
+                              </video>
+                              <script type="text/javascript">
+                                  videojs("myvideo2",{"controls":true,"autoplay":false
+                                  })
                               </script>
                           </div>
                       </div>
@@ -339,11 +324,11 @@
                   <!-- ===========video Div 3==========-->
                   <div class="col-sm-6 col-md-4">
                       <div class="thumbnail">
-                          <img src="../img/mo-img-1.jpg" alt="172x120"/>
-                          <h5 class="text-center">
-                              <button id="Button3" type="button" value="GIV-2A" onclick="ShowDiv('MyDiv','fade')" class="btn btn-danger btn-xs btn-block " >
-                                  <span class="glyphicon glyphicon-play pull-left"> </span><strong> &nbsp;&nbsp;XJCM-9A</strong></button>
-                          </h5>
+                          <img src="../img/M4-b1.png" alt="172x120"/>
+                          <p class="text-center">
+                              <button id="Button3" type="button" value="GEL-M4X" onclick="ShowDiv('MyDiv3','fade')" class="btn btn-danger btn-xs btn-block " >
+                                  <span class="glyphicon glyphicon-play pull-left"> </span>GEL-M4X 安装演示</button>
+                          </p>
                       </div>
                   </div>
 
@@ -351,35 +336,175 @@
                   <div id="MyDiv3" class="white_content">
                       <div class="panel">
                           <div class="panel-title">
-                              <button class="btn btn-danger btn-sm pull-right" onclick="CloseDiv('MyDiv','fade')">
+                              <button class="btn btn-danger btn-sm pull-right" onclick="CloseDiv('MyDiv3','fade')">
                                   <span aria-hidden="true" class="glyphicon glyphicon-remove"></span>Close</button>
-                              <h4>Video XJCM-9A</h4>
+                              <h4>Video GEL-M4X</h4>
 
                           </div>
 
                           <div class="panel-body">
-                              <div id='playerXBBrQtlKySeJ'></div>
-                              <script type='text/javascript'>
-                                  jwplayer('playerXBBrQtlKySeJ').setup({
-                                      file: '../movies/9A.mp4',
-                                      image: '../img/9A.jpg',
-                                      title: '9A',
-                                      width: '100%',
-                                      aspectratio: '4:3',
-                                      mute: 'true'
-                                  });
+                              <video id="myvideo3" class="video-js vjs-default-skin" preload="auto"  width="600" height="450"
+                                     poster="../img/bg-video.png">
+                                  <source src="../movies/training-M4.mp4" type='video/mp4' />
+                              </video>
+                              <script type="text/javascript">
+                                  videojs("myvideo3",{"controls":true,"autoplay":false
+                                  })
                               </script>
                           </div>
                       </div>
+                  </div>
+                  <!-- ===========video Div 4==========-->
+                  <div class="col-sm-6 col-md-4">
+                      <div class="thumbnail">
+                          <img src="../img/M6-b1.png" alt="172x120"/>
+                          <p class="text-center">
+                              <button id="Button4" type="button" value="GEL-M4X" onclick="ShowDiv('MyDiv4','fade')" class="btn btn-danger btn-xs btn-block " >
+                                  <span class="glyphicon glyphicon-play pull-left"> </span>GEL-M6 操作演示</button>
+                          </p>
+                      </div>
+                  </div>
 
+                  <!-- video window -->
+                  <div id="MyDiv4" class="white_content">
+                      <div class="panel">
+                          <div class="panel-title">
+                              <button class="btn btn-danger btn-sm pull-right" onclick="CloseDiv('MyDiv4','fade')">
+                                  <span aria-hidden="true" class="glyphicon glyphicon-remove"></span>Close</button>
+                              <h4>Video GEL-M6</h4>
+
+                          </div>
+
+                          <div class="panel-body">
+                              <video id="myvideo4" class="video-js vjs-default-skin" preload="auto"  width="600" height="450"
+                                     poster="../img/bg-video.png">
+                                  <source src="../movies/GEL-M6.mp4" type='video/mp4' />
+                              </video>
+                              <script type="text/javascript">
+                                  videojs("myvideo4",{"controls":true,"autoplay":false
+                                  })
+                              </script>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- ===========video Div 5==========-->
+                  <div class="col-sm-6 col-md-4">
+                      <div class="thumbnail">
+                          <img src="../img/2A-b1.png" alt="172x120"/>
+                          <p class="text-center">
+                              <button id="Button5" type="button" value="GIV-2A" onclick="ShowDiv('MyDiv4','fade')" class="btn btn-danger btn-xs btn-block " >
+                                  <span class="glyphicon glyphicon-play pull-left"> </span>GIV-2A 操作演示</button>
+                          </p>
+                      </div>
+                  </div>
+
+                  <!-- video window -->
+                  <div id="MyDiv5" class="white_content">
+                      <div class="panel">
+                          <div class="panel-title">
+                              <button class="btn btn-danger btn-sm pull-right" onclick="CloseDiv('MyDiv5','fade')">
+                                  <span aria-hidden="true" class="glyphicon glyphicon-remove"></span>Close</button>
+                              <h4>Video GIV-2A </h4>
+
+                          </div>
+
+                          <div class="panel-body">
+                              <video id="myvideo5" class="video-js vjs-default-skin" preload="auto"  width="600" height="450"
+                                     poster="../img/bg-video.png">
+                                  <source src="../movies/GEL-M4.mp4" type='video/mp4' />
+                              </video>
+                              <script type="text/javascript">
+                                  videojs("myvideo5",{"controls":true,"autoplay":false
+                                  })
+                              </script>
+                          </div>
+                      </div>
                   </div><!--end video -->
+              <!-- ===========video Div 6==========-->
+              <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                      <img src="../img/9A-s1.png" alt="172x120"/>
+                      <p class="text-center">
+                          <button id="Button6" type="button" value="GEL-M4X" onclick="ShowDiv('MyDiv6','fade')" class="btn btn-danger btn-xs btn-block " >
+                              <span class="glyphicon glyphicon-play pull-left"> </span>XJCM-9A 操作演示</button>
+                      </p>
+                  </div>
+              </div>
+
+              <!-- video window -->
+              <div id="MyDiv6" class="white_content">
+                  <div class="panel">
+                      <div class="panel-title">
+                          <button class="btn btn-danger btn-sm pull-right" onclick="CloseDiv('MyDiv6','fade')">
+                              <span aria-hidden="true" class="glyphicon glyphicon-remove"></span>Close</button>
+                          <h4>Video XJCM-9A</h4>
+
+                      </div>
+
+                      <div class="panel-body">
+                          <video id="myvideo6" class="video-js vjs-default-skin" preload="auto"  width="600" height="450"
+                                 poster="../img/bg-video.png">
+                              <source src="../movies/XJCM-9A.mp4" type='video/mp4' />
+                          </video>
+                          <script type="text/javascript">
+                              videojs("myvideo6",{"controls":true,"autoplay":false
+                              })
+                          </script>
+                      </div>
+                  </div>
+              </div><!--end video -->
 
               </div><!--row-->
           </div><!--bs-docs-section-->
 
 
+          <!--Customer Display============================
+          <div  class="bs-docs-section">
 
-          <!--Customer Display============================-->
+              <div class="row">
+                  <h1 class="pager-title">常见问题</h1>
+                  <div class="col-sm-6 col-md-12">
+                      <div class="panel-group" id="accordion">
+                          <div class="panel panel-default">
+                              <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                          问题1<span class="pull-right"><small>查看</small> <img src="../img/news/news-li.png"></span>
+                                      </a>
+                                  </h4>
+                              </div>
+                              <div id="collapseOne" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                      <div class="col-sm-6 col-md-12">
+                                        <p> 正在建设中……</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div><!--collapsible 1--
+
+                          <div class="panel panel-default">
+                              <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                          问题2<span class="pull-right"><small>查看</small> <img src="../img/news/news-li.png"></span>
+                                      </a>
+                                  </h4>
+                              </div>
+                              <div id="collapseTwo" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                      <div class="col-sm-6 col-md-12">
+                                          <p> 正在建设中……</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>-->
+
+          <!--Customer Display============================
           <div  class="bs-docs-section">
 
             <div class="row">
@@ -430,14 +555,11 @@
                         <td><a href="../pdf/9A.zip" class=""><span class="glyphicon glyphicon-save"> 下载</span></a></td>
                     </tr>
                 </table>
+            </div><!--row
+          </div>--bs-docs-section-->
 
-
-
-            </div><!--row-->
-          </div><!--bs-docs-section-->
 
       </div><!--/col-md-9 end-->
-        
       </div><!--row-->
     </div> <!--container-->
 

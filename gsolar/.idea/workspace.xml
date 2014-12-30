@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/index.html" line="14" />
+    <bookmark url="file://$PROJECT_DIR$/index.html" line="17" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7257f080-13e4-4e22-96a9-49ab2496bf83" name="Default" comment="" />
     <ignored path="gsolar_english.iws" />
@@ -26,7 +30,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="288" column="14" selection-start="12652" selection-end="12652" vertical-scroll-proportion="0.024154589" vertical-offset="5740" max-vertical-offset="7080">
+            <state line="16" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.38164252" vertical-offset="4" max-vertical-offset="7100">
               <folding />
             </state>
           </provider>
@@ -42,22 +46,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/page_ch/p_PLC2.html" />
-        <option value="$PROJECT_DIR$/page_ch/p_M8.html" />
-        <option value="$PROJECT_DIR$/page_ch/p_M6.html" />
-        <option value="$PROJECT_DIR$/page_ch/p_M2.html" />
-        <option value="$PROJECT_DIR$/page_ch/p_GSC9000.html" />
-        <option value="$PROJECT_DIR$/page_ch/p_C3.html" />
-        <option value="$PROJECT_DIR$/page_ch/p_8W.html" />
-        <option value="$PROJECT_DIR$/page_ch/p_8A.html" />
-        <option value="$PROJECT_DIR$/page_ch/p_8.html" />
-        <option value="$PROJECT_DIR$/page_ch/p_9A.html" />
-        <option value="$PROJECT_DIR$/page_ch/p_M4.html" />
-        <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/page_ch/sales-service.html" />
+        <option value="$PROJECT_DIR$/page_ch/contact.html" />
         <option value="$PROJECT_DIR$/page_ch/after-sales.html" />
+        <option value="$USER_HOME$/Desktop/video-js/demo.html" />
+        <option value="$PROJECT_DIR$/page_ch/sales-service.html" />
+        <option value="$PROJECT_DIR$/page_ch/products.html" />
+        <option value="$PROJECT_DIR$/page_ch/career.html" />
+        <option value="$PROJECT_DIR$/page_ch/p_8W.html" />
+        <option value="$PROJECT_DIR$/page_ch/news.html" />
+        <option value="$PROJECT_DIR$/page_ch/p_2A.html" />
+        <option value="$PROJECT_DIR$/page_ch/p_8.html" />
+        <option value="$PROJECT_DIR$/page_ch/p_8A.html" />
+        <option value="$PROJECT_DIR$/page_ch/news-frontier.html" />
+        <option value="$PROJECT_DIR$/page_en/system.html" />
+        <option value="$PROJECT_DIR$/page_ch/service-t.html" />
+        <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/../ARM-TestReport(final)/index.html" />
       </list>
     </option>
   </component>
@@ -93,6 +97,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -135,7 +140,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
+              <option name="myItemId" value="gsolar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsolar.git" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -149,25 +158,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar_english" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="google-code-prettify" />
+              <option name="myItemId" value="glyfonts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -187,14 +178,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ARM-TestReport(final)" />
+    <property name="options.lastSelected" value="appearance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -202,16 +192,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\web design\gsolar\movies" />
       <recent name="F:\web design\gsolar\img" />
+      <recent name="F:\web design\gsolar\img\news" />
+      <recent name="F:\web design\gsolar\movies" />
+      <recent name="F:\web design\gsolar\js" />
       <recent name="F:\web design\gsolar" />
-      <recent name="F:\web design\gsolar\ckplayer" />
-      <recent name="F:\web design\gsolar\page_ch" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\web design\gsolar\movies" />
       <recent name="F:\web design\gsolar\page_ch" />
       <recent name="F:\web design\gsolar" />
-      <recent name="F:\web design\gsolar\movies" />
       <recent name="F:\web design\gsolar\page_en" />
       <recent name="F:\web design\gsolar\page_en\prouducts_p" />
     </key>
@@ -296,13 +286,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986821" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12124407" sideWeight="0.6722408" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.113864" sideWeight="0.6722408" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5002636" order="9" side_tool="true" content_ui="tabs" />
@@ -316,25 +306,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.49973643" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5002636" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12018977" sideWeight="0.6722408" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -348,118 +319,88 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/page_ch/p_9A-test.html">
+    <entry file="file://$PROJECT_DIR$/page_ch/p_9.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1352" selection-end="1557" vertical-scroll-proportion="-3.1992753" vertical-offset="3329" max-vertical-offset="9140" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.5652175" vertical-offset="3780" max-vertical-offset="7860" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ch/p_8W.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="301" column="27" selection-start="12760" selection-end="12762" vertical-scroll-proportion="0.3325031" vertical-offset="5753" max-vertical-offset="7700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_en/p_2A.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ch/news-event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.42029" vertical-offset="3660" max-vertical-offset="10100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ch/p_2A.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="105" selection-start="8099" selection-end="8099" vertical-scroll-proportion="0.3325031" vertical-offset="3193" max-vertical-offset="9420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page_ch/p_8.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="285" column="18" selection-start="12290" selection-end="12290" vertical-scroll-proportion="0.072463766" vertical-offset="5640" max-vertical-offset="7840" />
+        <state line="173" column="58" selection-start="7756" selection-end="7756" vertical-scroll-proportion="0.51570046" vertical-offset="3033" max-vertical-offset="7780" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/p_PLINE.html">
+    <entry file="file://$PROJECT_DIR$/page_ch/p_8A.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="267" column="22" selection-start="12011" selection-end="12691" vertical-scroll-proportion="0.4347826" vertical-offset="4980" max-vertical-offset="7120">
+        <state line="247" column="0" selection-start="10804" selection-end="10804" vertical-scroll-proportion="-5.685185" vertical-offset="4633" max-vertical-offset="7820" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ch/news-frontier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="337" column="56" selection-start="14701" selection-end="14701" vertical-scroll-proportion="0.7487923" vertical-offset="6120" max-vertical-offset="9680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ch/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="297" column="5" selection-start="13042" selection-end="13042" vertical-scroll-proportion="0.1830635" vertical-offset="5793" max-vertical-offset="7020">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/p_M4.html">
+    <entry file="file://$PROJECT_DIR$/page_ch/news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="297" column="57" selection-start="13370" selection-end="13370" vertical-scroll-proportion="0.6763285" vertical-offset="5380" max-vertical-offset="7860">
+        <state line="287" column="0" selection-start="12227" selection-end="12227" vertical-scroll-proportion="0.91531754" vertical-offset="5005" max-vertical-offset="12040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ch/after-sales.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.03113325" vertical-offset="25" max-vertical-offset="6420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ch/sales-service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="602" column="44" selection-start="23013" selection-end="23016" vertical-scroll-proportion="0.3325031" vertical-offset="11773" max-vertical-offset="16260">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22037" selection-start="98371" selection-end="98379" vertical-scroll-proportion="0.26442307" vertical-offset="0" max-vertical-offset="832">
-          <folding />
-        </state>
+        <state line="11" column="2766" selection-start="79123" selection-end="79123" vertical-scroll-proportion="0.26442307" vertical-offset="0" max-vertical-offset="832" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/career.html">
+    <entry file="file://$PROJECT_DIR$/page_ch/service-t.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.5507247" vertical-offset="2940" max-vertical-offset="12020">
-          <folding />
-        </state>
+        <state line="567" column="11" selection-start="26425" selection-end="26427" vertical-scroll-proportion="0.3325031" vertical-offset="11073" max-vertical-offset="12940" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/sales-service.html">
+    <entry file="file://$PROJECT_DIR$/page_en/system.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="323" column="0" selection-start="12833" selection-end="12833" vertical-scroll-proportion="0.33816424" vertical-offset="6180" max-vertical-offset="16260">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/p_GSC9000.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="197" column="26" selection-start="8688" selection-end="8688" vertical-scroll-proportion="0.6038647" vertical-offset="3440" max-vertical-offset="7720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/p_9A.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="325" column="112" selection-start="14563" selection-end="14563" vertical-scroll-proportion="0.31400967" vertical-offset="6240" max-vertical-offset="8500">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="857">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="26298" selection-start="26410" selection-end="26414" vertical-scroll-proportion="0.048076924" vertical-offset="0" max-vertical-offset="832">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/模板参考/bootstrap-3.0.3/dist/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1694" column="37" selection-start="50237" selection-end="50250" vertical-scroll-proportion="0.3325444" vertical-offset="33599" max-vertical-offset="40240">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1507" column="43" selection-start="44149" selection-end="44149" vertical-scroll-proportion="0.39195403" vertical-offset="29799" max-vertical-offset="42480">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ARM-TestReport(final)/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="35" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.64209276" vertical-offset="20" max-vertical-offset="42480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/after-sales.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="254" column="0" selection-start="10812" selection-end="10812" vertical-scroll-proportion="0.8695652" vertical-offset="4360" max-vertical-offset="6020">
-          <folding />
-        </state>
+        <state line="46" column="50" selection-start="2144" selection-end="2144" vertical-scroll-proportion="0.8097503" vertical-offset="239" max-vertical-offset="1180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="288" column="14" selection-start="12652" selection-end="12652" vertical-scroll-proportion="0.024154589" vertical-offset="5740" max-vertical-offset="7080">
+        <state line="16" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.38164252" vertical-offset="4" max-vertical-offset="7100">
           <folding />
         </state>
       </provider>
