@@ -21,16 +21,28 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DiffToolSettings">
+    <option name="SOFT_WRAPS" value="true" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="gsolar_english" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_ch/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.38164252" vertical-offset="4" max-vertical-offset="7100">
+            <state line="4" column="11" selection-start="114" selection-end="114" vertical-scroll-proportion="-0.0" vertical-offset="80" max-vertical-offset="6480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page_ch/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="103" selection-start="711" selection-end="711" vertical-scroll-proportion="0.31400967" vertical-offset="0" max-vertical-offset="6660">
               <folding />
             </state>
           </provider>
@@ -46,22 +58,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/page_ch/contact.html" />
-        <option value="$PROJECT_DIR$/page_ch/after-sales.html" />
-        <option value="$USER_HOME$/Desktop/video-js/demo.html" />
+        <option value="$PROJECT_DIR$/page_ch/p_PLC2.html" />
         <option value="$PROJECT_DIR$/page_ch/sales-service.html" />
-        <option value="$PROJECT_DIR$/page_ch/products.html" />
-        <option value="$PROJECT_DIR$/page_ch/career.html" />
-        <option value="$PROJECT_DIR$/page_ch/p_8W.html" />
-        <option value="$PROJECT_DIR$/page_ch/news.html" />
-        <option value="$PROJECT_DIR$/page_ch/p_2A.html" />
-        <option value="$PROJECT_DIR$/page_ch/p_8.html" />
-        <option value="$PROJECT_DIR$/page_ch/p_8A.html" />
-        <option value="$PROJECT_DIR$/page_ch/news-frontier.html" />
-        <option value="$PROJECT_DIR$/page_en/system.html" />
         <option value="$PROJECT_DIR$/page_ch/service-t.html" />
-        <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/page_ch/p_ZK.html" />
+        <option value="$PROJECT_DIR$/page_ch/p_XB.html" />
+        <option value="$PROJECT_DIR$/page_ch/p_PLW1.html" />
+        <option value="$PROJECT_DIR$/page_ch/p_PLINE.html" />
+        <option value="$PROJECT_DIR$/../web素材/慕课网 - JavaScript 回到顶部/js/script.js" />
+        <option value="$PROJECT_DIR$/../web素材/慕课网 - JavaScript 回到顶部/demo.html" />
+        <option value="$PROJECT_DIR$/js/backtop.js" />
+        <option value="$PROJECT_DIR$/css/docs.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/page_ch/career.html" />
+        <option value="$PROJECT_DIR$/page_ch/contact.html" />
+        <option value="$PROJECT_DIR$/page_ch/products.html" />
+        <option value="$PROJECT_DIR$/page_ch/about.html" />
       </list>
     </option>
   </component>
@@ -140,38 +152,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar.git" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar_english" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="glyfonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar_english" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsolar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -192,11 +172,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\web design\gsolar\css" />
       <recent name="F:\web design\gsolar\img" />
       <recent name="F:\web design\gsolar\img\news" />
       <recent name="F:\web design\gsolar\movies" />
       <recent name="F:\web design\gsolar\js" />
-      <recent name="F:\web design\gsolar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\web design\gsolar\movies" />
@@ -319,88 +299,104 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/page_ch/p_9.html">
+    <entry file="file://$PROJECT_DIR$/page_ch/p_ZK.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.5652175" vertical-offset="3780" max-vertical-offset="7860" />
+        <state line="13" column="59" selection-start="652" selection-end="652" vertical-scroll-proportion="0.31400967" vertical-offset="0" max-vertical-offset="7300" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/p_8W.html">
+    <entry file="file://$PROJECT_DIR$/page_ch/p_XB.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="301" column="27" selection-start="12760" selection-end="12762" vertical-scroll-proportion="0.3325031" vertical-offset="5753" max-vertical-offset="7700" />
+        <state line="13" column="59" selection-start="652" selection-end="652" vertical-scroll-proportion="0.31400967" vertical-offset="0" max-vertical-offset="7000" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_en/p_2A.html">
+    <entry file="file://$PROJECT_DIR$/page_ch/p_PLW1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8080" />
+        <state line="13" column="59" selection-start="653" selection-end="653" vertical-scroll-proportion="0.31400967" vertical-offset="0" max-vertical-offset="6960" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/news-event.html">
+    <entry file="file://$PROJECT_DIR$/page_ch/p_PLINE.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.42029" vertical-offset="3660" max-vertical-offset="10100" />
+        <state line="13" column="59" selection-start="658" selection-end="658" vertical-scroll-proportion="0.31400967" vertical-offset="0" max-vertical-offset="6540" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/p_2A.html">
+    <entry file="file://$PROJECT_DIR$/page_ch/p_PLC2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="105" selection-start="8099" selection-end="8099" vertical-scroll-proportion="0.3325031" vertical-offset="3193" max-vertical-offset="9420" />
+        <state line="13" column="59" selection-start="652" selection-end="652" vertical-scroll-proportion="0.31400967" vertical-offset="0" max-vertical-offset="7040" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/p_8.html">
+    <entry file="file://$PROJECT_DIR$/page_ch/p_M8.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="58" selection-start="7756" selection-end="7756" vertical-scroll-proportion="0.51570046" vertical-offset="3033" max-vertical-offset="7780" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/p_8A.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="0" selection-start="10804" selection-end="10804" vertical-scroll-proportion="-5.685185" vertical-offset="4633" max-vertical-offset="7820" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/news-frontier.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="337" column="56" selection-start="14701" selection-end="14701" vertical-scroll-proportion="0.7487923" vertical-offset="6120" max-vertical-offset="9680" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="297" column="5" selection-start="13042" selection-end="13042" vertical-scroll-proportion="0.1830635" vertical-offset="5793" max-vertical-offset="7020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="287" column="0" selection-start="12227" selection-end="12227" vertical-scroll-proportion="0.91531754" vertical-offset="5005" max-vertical-offset="12040" />
+        <state line="13" column="59" selection-start="667" selection-end="667" vertical-scroll-proportion="0.31400967" vertical-offset="0" max-vertical-offset="7180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page_ch/after-sales.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.03113325" vertical-offset="25" max-vertical-offset="6420" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5880" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/sales-service.html">
+    <entry file="file://$PROJECT_DIR$/../web素材/慕课网 - JavaScript 回到顶部/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="602" column="44" selection-start="23013" selection-end="23016" vertical-scroll-proportion="0.3325031" vertical-offset="11773" max-vertical-offset="16260">
+        <state line="104" column="16" selection-start="2395" selection-end="2395" vertical-scroll-proportion="-17.275862" vertical-offset="1579" max-vertical-offset="2420">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/../web素材/慕课网 - JavaScript 回到顶部/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="2766" selection-start="79123" selection-end="79123" vertical-scroll-proportion="0.26442307" vertical-offset="0" max-vertical-offset="832" />
+        <state line="25" column="46" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_ch/service-t.html">
+    <entry file="file://$PROJECT_DIR$/js/backtop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="567" column="11" selection-start="26425" selection-end="26427" vertical-scroll-proportion="0.3325031" vertical-offset="11073" max-vertical-offset="12940" />
+        <state line="32" column="42" selection-start="741" selection-end="741" vertical-scroll-proportion="0.7356322" vertical-offset="0" max-vertical-offset="1000">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_en/system.html">
+    <entry file="file://$PROJECT_DIR$/css/docs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="50" selection-start="2144" selection-end="2144" vertical-scroll-proportion="0.8097503" vertical-offset="239" max-vertical-offset="1180" />
+        <state line="476" column="6" selection-start="10973" selection-end="10973" vertical-scroll-proportion="0.3229885" vertical-offset="9239" max-vertical-offset="27680">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.38164252" vertical-offset="4" max-vertical-offset="7100">
+        <state line="4" column="11" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="6900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ch/career.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="14" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="10220">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ch/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="114" selection-end="114" vertical-scroll-proportion="-0.0" vertical-offset="80" max-vertical-offset="6480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ch/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="608" selection-end="712" vertical-scroll-proportion="0.31400967" vertical-offset="0" max-vertical-offset="9300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ch/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="103" selection-start="711" selection-end="711" vertical-scroll-proportion="0.31400967" vertical-offset="0" max-vertical-offset="6660">
           <folding />
         </state>
       </provider>

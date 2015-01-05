@@ -12,7 +12,7 @@
 
 body {
   position: relative;
-  padding-top: 60px;
+  /*padding-top: 60px;*/
 }
 
 /* Code in headings */
@@ -332,6 +332,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 .pager-title {
   margin-top:80px;
   margin-bottom: 24px;
+  padding-top:30px;
   padding-bottom: 10px;
   font-size:28px;
   letter-spacing: -1px;
@@ -482,7 +483,7 @@ p.lead{
 	left:85%; 
 	bottom:40px;
 	line-height:40px;
-	background: url(../img/top_bg.png) no-repeat left top;
+	background: url(../img/top_bg2.png) no-repeat left top;
 	z-index:999;
 	border:1px solid #BDC3C7;
 	-webkit-border-radius: 6px;
@@ -492,7 +493,7 @@ p.lead{
 
 #btn:hover {
 	border:0;
-	background: url(../img/top_bg.png) no-repeat left -40px;
+	background: url(../img/top_bg2.png) no-repeat left -40px;
 
 }
 
