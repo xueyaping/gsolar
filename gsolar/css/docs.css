@@ -22,7 +22,6 @@ h3 code {
 }
 
 
-
 /* Tweak navbar brand link to be super sleek
 -------------------------------------------------- */
 
@@ -286,7 +285,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 /* 大轮播背景重设
 -------------------------------------------------- */
 
-.carousel{position:relative}
+.carousel{position:relative;margin-top: 20px}
 .carousel-inner-bg{position:relative;overflow:hidden;width:100%;background:#3366ff}
 .carousel-inner-bg>.item{display:none;position:relative;-webkit-transition:.6s ease-in-out left;-o-transition:.6s ease-in-out left;transition:.6s ease-in-out left}
 .carousel-inner-bg>.item>img,.carousel-inner>.item>a>img{line-height:1}
@@ -312,7 +311,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
   color: #5a5a5a;
 }
 .featurette-title-ch {
-    font-size:43px;
+    font-size:42px;
     /*中文字体*/
 }
 .featurette-heading-ch {
@@ -326,7 +325,6 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 .featurette-heading {
   margin-top:120px;
   letter-spacing: -1px;
-  line-height: 1;
   text-align: left;
 }
 .pager-title {
@@ -480,8 +478,8 @@ p.lead{
 	height:40px;
 	position:fixed;
 	display:none;
-	left:85%; 
-	bottom:40px;
+	left:84%;
+	bottom:6%;
 	line-height:40px;
 	background: url(../img/top_bg2.png) no-repeat left top;
 	z-index:999;
@@ -1089,7 +1087,17 @@ bs-docs-sidenav >.active>a {
 
 /* Responsive
 -------------------------------------------------- */
+@media (min-width: 1336px) and (max-width: 1399px) {
+    .carousel-caption{
+        display: block;
 
+    }
+    .carousel-caption h1, .carousel-caption p{
+        position: relative;
+        width: 95%;
+
+    }
+}
 /* Desktop large
 ------------------------- */
 @media (min-width: 1200px) {
@@ -1104,6 +1112,19 @@ bs-docs-sidenav >.active>a {
   }
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .thumbnail>.caption{
+
+       display: block;
+        font-size: 9px;
+        width: 100%;
+        line-height: 1.2em;
+        white-space:nowrap;
+        text-overflow:ellipsis;
+        overflow:hidden;
+    }/*产品展示列表标题裁切*/
+}
 /* Desktop
 ------------------------- */
 @media (max-width: 980px) {
@@ -1247,6 +1268,8 @@ bs-docs-sidenav >.active>a {
   }
 
   /* Change up some type stuff */
+    .page-header  {font-size: 32px;}
+    .pager-title {font-size: 28px;}
   h2 small {
     display: block;
   }
@@ -1264,7 +1287,6 @@ bs-docs-sidenav >.active>a {
     .carousel-control .glyphicon-chevron-right,.carousel-control .icon-next{margin-right:-15px}
     .carousel-caption{
         display: block;
-        width:50%;
         left:15%;
         padding-top:2px;
         padding-bottom: 2px;
@@ -1274,7 +1296,7 @@ bs-docs-sidenav >.active>a {
         line-height:1.2;
         margin-bottom:2px;
     }
-    .carousel-caption p{ font-size:9px;line-height:1.2;text-shadow:none;}
+    .carousel-caption p{ display: block; font-size:9px;width:70%;text-overflow:ellipsis; white-space:nowrap;overflow:hidden;line-height:1.2;text-shadow:none;}
     .carousel-indicators{bottom:2px;zoom: 50% }
 
 
@@ -1296,20 +1318,36 @@ bs-docs-sidenav >.active>a {
   .subhead p {
     text-align: center;
   }
-
+    .bs-docs-social {margin-bottom: 20px}
   /* Marketing on home */
-  .marketing h2 {
-    font-size: 30px;
-  }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+   .featurette-title-ch,.featurette-title {
+        font-size:32px;
+        /*中文字体*/
+    }
+    .featurette-heading {
+        margin-top: 40px;
+    }
+    .marketing h1 {
+        font-size: 30px;
+    }
+    .marketing h2 {
+        font-size: 28px;
+    }
     .marketing h3 {
     font-size: 20px;
-}
+    }
     .marketing p {
         font-size: 14px;
     }
-  .marketing-byline {
-    font-size: 18px;
+    .marketing .marketing-byline {
+     font-size: 18px;
+      margin-bottom: 20px;
   }
+
 
   /* center example sites */
   .example-sites {
@@ -1367,9 +1405,7 @@ bs-docs-sidenav >.active>a {
     padding-bottom: 20px;
   }
 
-   .col-xs-3 .text-right, .img-thumbnail {
-   display: none;
-   }
+
    .col-xs-9 {
    width:100%;
    text-align: center

@@ -1,16 +1,18 @@
+
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Gsolar</title>
+    <title>GSOLAER POWER CO.,LTD｜Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="keywords" content="energy industries,Solar,Gsolar,Gsolar Power，testing equipment，Solar Simulator，EL Detector,Production Line">
+    <meta name="description" content="Gsolar Power Co., LTD is commitment to developing and promoting technology of new energy industries.It is the only PV equipment producer that has TUV/CE certification in China.We are mainly developing solar cell testing technology and related testing equipment, serving for photovoltaic industry. The main products are IEC AAA class sun simulator, solar cell tester, auto cell sorter, outdoor module/array tester and solar cell/module EL/PL defect detecter, turnkey solar module production line.Tel：+86 29 82682948">
     <meta name="author" content="薛亚平">
 
     <!-- Bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/docs.css" rel="stylesheet">
-
+    <link rel="shortcut icon" type="image/x-icon" href="../img/logo-link/favicon.ico" media="screen" />
     <script src="../js/backtop.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -27,294 +29,318 @@
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-
-
-    <script>
-
-        /*var _gaq = _gaq || [];
-         _gaq.push(['_setAccount', 'UA-146052-10']);
-         _gaq.push(['_trackPageview']);
-         (function() {
-         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-         })();
-         */
-    </script>
-    <!--引用百度地图API-->
     <style type="text/css">
-        html,body{margin:0;padding:0;}
-        .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
-        .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+
+        .text-center {display:block;width:150px;text-align: center}
+        @media (max-width: 1199px){
+             .list-inline {
+                display: none;
+            }
+             }
+
+
+        .mapbtn {
+            display: block;
+            position: relative;
+            z-index: 1;
+            float: left;
+            border:#ccc solid 1px;
+            background: #efefef;
+            padding:2px 0 0 5px;
+            font-size:8px;
+            border-radius: 2px;
+            -moz-border-radius: 2px;
+            -webkit-border-radius: 2px;
+        }/*中英文地图切换换钮
+
+
     </style>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+    <!--引用高德API-->
+
+    <script language="javascript" src="http://webapi.amap.com/maps?v=1.3&key=11e203fa7ecf8fad210d68138d1586c9"></script>
+
+    <script language="javascript">
+
+
+        var mapObj;
+        //初始化地图对象，加载地图
+        function mapInit() {
+            mapObj = new AMap.Map("iCenter",{
+                rotateEnable:true,
+                dragEnable:true,
+                zoomEnable:true,
+                //二维地图显示视口
+                view: new AMap.View2D({
+                    center:new AMap.LngLat(108.854500,34.367702),//地图中心点
+                    zoom:14 //地图显示的缩放级别
+                })
+            });
+            var marker = new AMap.Marker({
+                position:mapObj.getCenter(),
+                draggable:false, //点标记可拖拽
+                cursor:'move' //鼠标悬停点标记时的鼠标样式
+            });
+            marker.setMap(mapObj);
+            marker.setTitle('Gsola'); //设置鼠标划过点标记显示的文字提示
+        }
+
+
+
+        function en_map(){
+            mapObj.setLang("en");
+        }
+        function zh_en_map(){
+            mapObj.setLang("zh_en");
+        }
+        function zh_map(){
+            mapObj.setLang("zh_cn");
+        }
+    </script>
+
+
 </head>
+<body data-spy="scroll" data-target=".bs-docs-sidenav" data-offset="80"  onLoad="mapInit()">
+<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
 
-<body data-spy="scroll" data-target=".bs-docs-sidenav" data-offset="80">
-
-
-    <!-- Navbar导航条
-    ================================================== -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
+<!-- Navbar导航条
+  ================================================== -->
+<div class="navbar navbar-inverse navbar-static-top">
+    <div class="navbar-inner" id="top" role="banner">
         <div class="container">
-          <div class="navbar-header"><!--公司logo-->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html"><img src="../img/logo-white.png" alt="Gsolar"/></a>
-          </div>
-          
-          <div class="navbar-collapse collapse pull-right" role="navigation"style="height:1px;"><!--栏目列表-->
-            <ul class="nav navbar-nav">
-              <li>
-                <a href="index.html"><i class="icon-home"></i>  Home</a>
-              </li>
+            <div class="navbar-header"><!--公司logo-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index-en.html"><img src="../img/logo-white.png" alt="Gsolar"/></a>
+            </div>
 
-              <li class="dropdown">
-                <a href="products.html" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="products.html#p0">New Products</a></li>
-                    <li class="divider"></li>
-                    <li><a href="products.html#p1">Solar Simulator</a></li>
-                    <li><a href="products.html#p2">EL Detector</a></li>
-                    <li><a href="products.html#p3">Production Line</a></li>
+            <div class="navbar-collapse collapse pull-right" role="navigation"style="height:1px;"><!--栏目列表-->
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index-en.html"><i class="icon-home"></i>Home</a>
+                    </li>
+
+                    <li class="">
+                        <a href="products.html" >Products</a>
+                    </li>
+
+                    <li>
+                        <a href="about.html" >About Us</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="sales-service.html"  class="dropdown-toggle" data-toggle="dropdown">Service<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="sales-service.html">Sales Service</a></li>
+                            <li class="divider"></li>
+                            <li><a href="after-sales.html">After-sales Service</a></li>
+                            <li><a href="service-t.html">Technical Support</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="news.html"  class="dropdown-toggle" data-toggle="dropdown">News<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./news.html">Company News</a></li>
+                            <li class="divider"></li>
+                            <li><a href="./news-frontier.html">New Technology</a></li>
+                            <li><a href="./news-event.html">Exhibition</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="./career.html">Career</a></li>
+                    <li class="active"><a href="./contact.html">Contact</a></li>
+                    <li><a href="../index.html"><span class="label label-success">中文</span></a></li>
                 </ul>
-              </li>
-
-              <li class="dropdown">
-                <a href="./about.html" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="./about.html#p0">Company profile</a></li>
-                    <li class="divider"></li>
-                    <li><a href="./about.html#p1">Core Culture</a></li>
-                    <li><a href="./about.html#p2">Our History</a></li>
-                    <li><a href="./about.html#p3">Technical Achievement</a></li>
-                </ul>
-              </li>
-
-              <li class="dropdown">
-                <a href="sales-service.html"  class="dropdown-toggle" data-toggle="dropdown">Service<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="sales-service.html">sales Service</a></li>
-                    <li class="divider"></li>
-                    <li><a href="after-sales.html">After-sales Service</a></li>
-                    <li><a href="service-t.html"> Technical Support</a></li>
-                </ul>
-              </li>
-
-              <li><a href="news.html">News</a></li>
-              <li><a href="./career.html">Career</a></li>
-              <li class="active"><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-
+            </div>
         </div>
-      </div>
     </div>
-
-
-    <!-- Subhead
+</div>
+<!-- Subhead
 ================================================== -->
-    <div class="jumbotron subhead" id="overview">
-        <div class="container">
+<div class="jumbotron subhead" id="content">
+    <div class="container" >
 
-        </div>
     </div>
+</div>
 
-  <!-- Container
-    ================================================================================================ -->
-    <div class="container">
-      <div class="row">
+<!-- Container
+  ================================================================================================ -->
+<div class="container">
+    <div class="row">
 
-      <!--====侧边导航====-->
+        <!--====侧边导航====-->
         <div class="col-md-3">
-          <div class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" >
-            <ul class="nav bs-docs-sidenav">
-              <li class="li-header1"> Contacts
-                <img src="../img/li-header-img1.png" class="li-header-img">
-              </li>
-              <li class="active"><a href="#">Contacts us</a></li>
-            </ul>
-            <ul class="nav bs-docs-sidenav">
-                <li class="li-header2">Contacts
-                    <img src="../img/li-header-img2.png" class="li-header-img"/>
-                </li>
-                <li class="address-bg">
+            <div class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" >
+                <ul class="nav bs-docs-sidenav">
+                    <li class="li-header1">Contact
+                        <img src="../img/li-header-img1.png" class="li-header-img">
+                    </li>
+                    <li class="active"><a href="#">Contact Us</a></li>
+                </ul>
+                <ul class="nav bs-docs-sidenav">
+                    <li class="li-header2">contact
+                        <img src="../img/li-header-img2.png" class="li-header-img"/>
+                    </li>
+                    <li class="address-bg">
 
-                    <address>
-                        <strong>  Gsolar Power Co.,Ltd.</strong><br>
-                        Tel: 86-029-89150750/51/52<br>
-                        Fax: 86-029-89150753-604<br>
-                        E-mail: sales@gsola.cn
-                    </address>
-                </li>
-            </ul>
-          </div>
+                        <address>
+                            Gsolar Power Co.,Ltd<br>
+                            Tel: +86 29-89150750/51/52<br>
+                            Fax: +86 29-89150753-604<br>
+                            E-mail: sales@gsola.cn
+                        </address>
+                    </li>
+                </ul>
+            </div>
         </div><!--/col-md-3-->
 
-      <!--=========================================右侧内容============================================-->
+        <!--=========================================右侧内容============================================-->
         <div class="col-md-9" role="main">
+            <div class="bs-docs-section">
+                <h1 class="page-header">
+                    <span class="text-muted">Contact Us</span>  </h1>
 
-          <div class="bs-docs-section">
-            <div class="row">
-            <h1 class="page-header">
-              <span class="text-muted"> Our Address </span>  </h1>
-              <div class="col-sm-6 col-md-6">
-                  <h4> Gsolar Power Co.,Ltd.</h4>
-                  <p> #8 Building of Service Outsourcing Industrial Park,
-                        Shangji Road, Xi’an Economic & Technological Development Zone,
-                        Xi’an, Shaanxi China, PRC
-                  </p>
-                  <p>zip:710000</p>
-                  <h4>Contact us</h4>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                        <h4>Gsolar Power Co.,Ltd </h4>
+                        <p> ADD: #8 Building of Service Outsourcing Industrial Park, X'ian Economic & Technological Development Zone,Xi'an 710018 P.R. China
+                            </p>
 
-                  <address >
-                      <span class="text-danger">Tel: </span>86-029-89150750/51/52<br/>
-                      <span class="text-danger">Fax: </span> 86-029-89150753-604<br/>
-                      <span class="text-danger">E-mail: </span>wyh@gsola.cn<br/>
-                      <span class="text-danger">Web: </span>www.gsola.cn
+                        <address >
+                            Sales Tel: <strong><span class="text-danger">+86 29-82682948</span></strong><br/>
+                            After Sales Tel: <strong><span class="text-danger">4008 160 156</span></strong><br/>
+                            Tel: +86 29-89150750/51/52<br/>
+                            Fax: +86 29-89150753-604<br/>
+                            E-mail: sales@gsola.cn<br/>
+                            Web: www.gsola.cn
+                        </address>
+                    </div>
+                    <div class="col-sm-6 col-md-6 thumbnail">
+                        <!--百度地图容器-->
+                        <div style="width:414px;height:240px;" id="iCenter">
 
-                  </address>
-                  <br/>
-                  <br/>
-                  <br/>
-                  <br/>
-                  <br/>
-                  <br/>
+                            <input class="mapbtn"  type="button" value="English " onClick="javascript:en_map()"/>
+                            <input class="mapbtn"  type="button" value="中文 " onClick="javascript:zh_map()"/>
 
-              </div>
+                        </div>
+                    </div>
 
-          <!--map================-->
-
-                <!--百度地图容器-->
-                <div class="col-sm-6 col-md-6 thumbnail">
-                    <div style="width:414px;height:240px;border:#ccc solid 1px;" id="dituContent"></div>
-                </div>
+                </div><!--row-->
+            </div><!--bs-docs-section-->
 
 
-            </div><!--row-->
-          </div><!--bs-docs-section-->
+            <!--map================-->
+            <div class="bs-docs-section">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                        <ul class="list-inline">
+                            <li><img class="img-thumbnail" src="../img/wb.png" style="width: 150px" >
+                                <p class="text-center">MicroBlog </p>
+                            </li>
+
+                            <li><img class="img-thumbnail" src="../img/wx.jpg" style="width: 150px">
+                                <p class="text-center">WeChat</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+
+
+
+                </div><!--row-->
+            </div><!--bs-docs-section-->
 
 
         </div><!--/col-md-9 end-->
-        
-      </div><!--row-->
-    </div> <!--container-->
+
+    </div><!--row-->
+</div> <!--container-->
 
 
 
-    <!-- Footer
-  ==================================================== -->
-    <a href="javascript:;"id="btn" title="back top"></a><!--返回顶部-->
-    <footer class="footer">
-      <div class="container">
-        <p>Copyright © 2011 Gsolar Power Co, LTD</p>
-          <ul class="footer-links">
-              <li><a href="http://bloggetbootstrapcom">Blog</a></li>
-              <li class="muted">&middot;</li>
-              <li><a href="sales-service.html">The Links</a></li>
-              <li class="muted">&middot;</li>
-              <li><a href="contact.html">Contact</a></li>
-          </ul>
-      </div>
-    </footer>
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="http://platformtwittercom/widgets.js"></script>
-    <script src="../js/jquery.js"></script>
-    <script src="../js/bootstrap.js"></script>
-    <script src="../js/holder.js"></script>
-
-    <script src="./js/bootstrap-scrollspy.js"></script>
+<!-- Footer
+==================================================== -->
+<a href="javascript:;"id="btn" title="back top"></a><!--返回顶部-->
+<footer class="footer">
+    <div class="container">
+        <p>Copyright &copy; 2011 Gsolar Power Co., LTD</p>
+        <ul class="footer-links">
+            <li><a href="sales-service.html#link">Partner</a></li>
+            <li class="muted">&middot;</li>
+            <li><a href="career.html">Career</a></li>
+            <li class="muted">&middot;</li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</footer>
 
 
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="http://platformtwittercom/widgets.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/holder.js"></script>
+
+<script src="../js/bootstrap-scrollspy.js"></script>
 
 
 
-    <!-- Analytics
-    ================================================== -->
-    <script >
-        $('.dropdown-toggle').dropdown()
-    </script>
-    <script>
-        $('#navbar').scrollspy()
-        $('[data-spy="scroll"]').each(function () {
-            var $spy = $(this).scrollspy('refresh')
-        });
-    </script>
-
-    <script>
-        var _gauges = _gauges || [];
-        (function() {
-            var t   = document.createElement('script');
-            t.type  = 'text/javascript';
-            t.async = true;
-            t.id    = 'gauges-tracker';
-            t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
-            t.src = '//secure.gaug.es/track.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(t, s);
-        })();
-    </script>
-
-    <script>
-
-        $(function(){
-            $(".dropdown").mouseover(function(){
-                $(this).children("ul").show();
-            })
-
-            $(".dropdown").mouseout(function(){
-                $(this).children("ul").hide();
-
-            })
-        })
-
-    </script>
-    <script type="text/javascript">
-        //创建和初始化地图函数：
-        function initMap(){
-            createMap();//创建地图
-            setMapEvent();//设置地图事件
-            addMapControl();//向地图添加控件
-        }
-
-        //创建地图函数：
-        function createMap(){
-            var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
-            var point = new BMap.Point(108.859473,34.374502);//定义一个中心点坐标
-            map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
-            window.map = map;//将map变量存储在全局
-        }
-
-        //地图事件设置函数：
-        function setMapEvent(){
-            map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
-            map.enableScrollWheelZoom();//启用地图滚轮放大缩小
-            map.disableDoubleClickZoom();//禁用鼠标双击放大
-            map.disableKeyboard();//禁用键盘上下左右键移动地图，默认禁用(可不写)
-        }
-
-        //地图控件添加函数：
-        function addMapControl(){
-            //向地图中添加缩放控件
-            var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_ZOOM});
-            map.addControl(ctrl_nav);
-            //向地图中添加缩略图控件
-            var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
-            map.addControl(ctrl_ove);
-            //向地图中添加比例尺控件
-            var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
-            map.addControl(ctrl_sca);
-        }
 
 
-        initMap();//创建和初始化地图
-    </script>
-  </body>
+<!-- Analytics
+================================================== -->
+<script >
+    $('.dropdown-toggle').dropdown()
+</script>
+<script>
+    $('#navbar').scrollspy()
+    $('[data-spy="scroll"]').each(function () {
+        var $spy = $(this).scrollspy('refresh')
+    });
+</script>
+
+<script>
+    var _gauges = _gauges || [];
+    (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+    })();
+</script>
+
+<script>
+
+    /* $(function(){
+     $(".dropdown").mouseover(function(){
+     $(this).children("ul").show();
+     })
+
+     $(".dropdown").mouseout(function(){
+     $(this).children("ul").hide();
+
+     })
+     })
+
+</script>
+
+</body>
 </html>

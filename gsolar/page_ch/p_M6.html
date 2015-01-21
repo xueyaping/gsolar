@@ -28,9 +28,13 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
-  
 
-    <script src="http://jwpsrv.com/library/G5k9ZD5EEeS+YSIACyaB8g.js">//视频播放</script>
+
+    <link href="../movies/video-js.css" rel="stylesheet" type="text/css">
+    <script src="../movies/video.js">//js视频库文件</script>
+    <script>
+        videojs.options.flash.swf = "../movies/video-js.swf";
+    </script>
   
         
   </head>
@@ -79,7 +83,7 @@
                       <li class="dropdown">
                           <a href="news.html"  class="dropdown-toggle" data-toggle="dropdown">企业动态<b class="caret"></b></a>
                           <ul class="dropdown-menu">
-                              <li><a href="./news.html">企业新闻</a></li>
+                              <li><a href="./news.html">公司新闻</a></li>
                               <li class="divider"></li>
                               <li><a href="./news-frontier.html">技术前沿</a></li>
                               <li><a href="./news-event.html">展会活动</a></li>
@@ -88,7 +92,7 @@
 
                       <li><a href="./career.html">加入我们</a></li>
                       <li><a href="./contact.html">联系我们</a></li>
-                      <li><a href="../page_en/system.html"><span class="label label-success">English</span></a></li>
+                      <li><a href="../page_en/index-en.html"><span class="label label-success">English</span></a></li>
                   </ul>
               </div>
 
@@ -199,50 +203,54 @@
                       <table class="table table-bordered table-responsive">
                         <thead>
                           <tr class="active">
-                            <th>型号:</th>
+                            <th>型号</th>
                             <th>GEL-M6</th>
                           </tr>
                         </thead>
                           <tbody>
                           <tr>
-                              <td>可测组件尺寸：</td>
+                              <td>可测组件尺寸</td>
                               <td>2000x1000mm 大小组件均可</td>
                           </tr>
                           <tr>
-                              <td>主要配置：</td>
+                              <td>主要配置</td>
                               <td>测试机柜（内含红外相机）+专用软件（附赠品牌计算机+显示器）</td>
                           </tr>
                           <tr>
-                              <td>相机分辨率：</td>
-                              <td>4928×3264(1600万像素)</td>
+                              <td>相机分辨率</td>
+                              <td>4928×3264(1620万像素)</td>
                           </tr>
                           <tr>
-                              <td>测试周期：</td>
+                              <td>曝光时间</td>
+                              <td>1~25s可调，最短曝光时间：2s</td>
+                          </tr>
+                          <tr>
+                              <td>测试周期</td>
                               <td>5s/pcs</td>
                           </tr>
                           <tr>
-                              <td>接线方式:</td>
+                              <td>接线方式</td>
                               <td>手工接线（适用于层压前、后组件测试）</td>
                           </tr>
                           <tr>
-                              <td>工作环境：</td>
-                              <td>温度 10<sup>。</sup>- 30<sup/>。</sup>  湿度 20<sup>。</sup>- 70<sup/>。</sup> </td>
+                              <td>工作环境</td>
+                              <td>温度 20-30℃；湿度 40-70%</td>
                           </tr>
                           <tr>
-                              <td>气源要求：</td>
-                              <td colspan="2">气压0.8Mpa，流量120L/min</td>
+                              <td>气源要求</td>
+                              <td colspan="2">气压 0.8Mpa，流量 120L/min</td>
                           </tr>
                           <tr>
-                              <td>通电电源：</td>
-                              <td colspan="2">最大电流10A，最大电压60V </td>
+                              <td>通电电源</td>
+                              <td colspan="2">最大电流 10A，最大电压 120V</td>
                           </tr>
                           <tr>
-                              <td>电源要求：</td>
-                              <td>单相220V 10A</td>
+                              <td>电源要求</td>
+                              <td>220V 10A，单相</td>
                           </tr>
                           <tr>
-                              <td>外形尺寸（长x宽x高）：</td>
-                              <td>2200×1900×1450mm</td>
+                              <td>外形尺寸（长x宽x高）</td>
+                              <td>2200×1935×900mm</td>
                           </tr>
 
                           </tbody>
@@ -261,27 +269,28 @@
             </div><!--row-->
           </div><!--bs-docs-section-->
 
-          <!--暂无视频============================
-          <div id="" class="bs-docs-section">
-          <p class="pager-title">设备视频</p><br/>
-            <div class="row">
-              <div class="col-sm-6 col-md-9">
-                  <div class="media">
-                  </div>
-                <div id='playerXBBrQtlKySeJ'></div>
-                  <script type='text/javascript'>
-                     /* jwplayer('playerXBBrQtlKySeJ').setup({
-                          file: '../movies/GEL-M6.mp4',
-                          image: '../img/M6-b1.png',
-                          title: 'GEL-M8',
-                          width: '100%',
-                          aspectratio: '3:2',
-                          mute: 'true'
-                      });
-                  </script>
-              </div>
-            </div>
-          </div>-->
+            <!--视频============================-->
+            <div id="" class="bs-docs-section">
+                <p class="pager-title">设备视频</p><br/>
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-9 media">
+
+                        <video id="myvideo" class="video-js vjs-default-skin" preload="auto"  width="600" height="420"
+                               poster="../img/bg-video.png"
+                                >
+                            <source src="../movies/GEL-M6.mp4" type='video/mp4' />
+                            <source src="http://视频地址格式2.webm" type='video/webm' />
+                            <source src="http://视频地址格式3.ogv" type='video/ogg' />
+                        </video>
+                        <script type="text/javascript">
+                            videojs("myvideo",{"controls":true,"autoplay":false
+                            })
+                        </script>
+                    </div>
+
+                </div><!--row-->
+            </div><!--bs-docs-section-->
 
         </div><!--/col-md-9 end-->
       </div><!--row-->
@@ -293,7 +302,7 @@
     <a href="javascript:;"id="btn" title="back top"></a><!--返回顶部-->
     <footer class="footer">
         <div class="container">
-            <p>Copyright © 2011 陕西众森电能科技有限公司 版权所有 陕ICP备11002655号</p>
+            <p>Copyright &copy; 2011 陕西众森电能科技有限公司 版权所有 陕ICP备11002655号</p>
             <ul class="footer-links">
                 <li><a href="sales-service.html#link">合作伙伴</a></li>
                 <li class="muted">&middot;</li>
