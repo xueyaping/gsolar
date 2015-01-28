@@ -30,17 +30,21 @@
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
                     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="assets/ico/favicon.png">
-	
-	<script type="text/javascript">
-     /* var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-146052-10']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();*/
-    </script>
+
+      <script type="text/javascript">
+          ieGo();
+          function ieGo(){
+              var ie = !-[1,];
+              if(ie == true) {
+                  var ua = navigator.userAgent.toLowerCase();
+                  var version = parseInt(ua.match(/msie ([\d.]+)/)[1]);
+                  if(version <= 7) {
+                      location.href='http://www.gsolar.cn';
+                  }
+              }
+          }
+      </script>
+
       <style>
           .img-thumbnail {width: 120px;height: 120px;}
           @media (max-width: 1199px){

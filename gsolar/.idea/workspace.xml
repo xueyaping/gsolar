@@ -30,10 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sales-service.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page_ch/sales-service.html">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="515" column="73" selection-start="19919" selection-end="19919" vertical-scroll-proportion="0.83063513" vertical-offset="9633" max-vertical-offset="15760">
+            <state line="40" column="32" selection-start="2120" selection-end="2121" vertical-scroll-proportion="0.4589372" vertical-offset="420" max-vertical-offset="7100">
               <folding />
             </state>
           </provider>
@@ -49,7 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/page_ch/p_9.html" />
         <option value="$PROJECT_DIR$/page_ch/p_9A.html" />
         <option value="$PROJECT_DIR$/page_ch/p_C3.html" />
         <option value="$PROJECT_DIR$/page_ch/p_GSC9000.html" />
@@ -65,6 +64,7 @@
         <option value="$PROJECT_DIR$/page_ch/products.html" />
         <option value="$PROJECT_DIR$/page_ch/service-t.html" />
         <option value="$PROJECT_DIR$/page_ch/sales-service.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -290,11 +290,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/page_ch/p_9A.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="576" selection-end="576" vertical-scroll-proportion="-5.5172415" vertical-offset="0" max-vertical-offset="7920" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page_ch/p_C3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="38" selection-start="576" selection-end="576" vertical-scroll-proportion="-5.5172415" vertical-offset="0" max-vertical-offset="7100" />
@@ -352,7 +347,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page_ch/products.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="40" selection-start="590" selection-end="590" vertical-scroll-proportion="-5.5172415" vertical-offset="0" max-vertical-offset="9300" />
+        <state line="8" column="40" selection-start="590" selection-end="590" vertical-scroll-proportion="-5.5172415" vertical-offset="0" max-vertical-offset="9300">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page_ch/missing.html">
@@ -370,6 +367,13 @@
     <entry file="file://$PROJECT_DIR$/page_ch/sales-service.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="515" column="73" selection-start="19919" selection-end="19919" vertical-scroll-proportion="0.83063513" vertical-offset="9633" max-vertical-offset="15760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="32" selection-start="2120" selection-end="2121" vertical-scroll-proportion="0.4589372" vertical-offset="420" max-vertical-offset="7100">
           <folding />
         </state>
       </provider>
